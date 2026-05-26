@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-05-25T04:08:34+00:00"
+fetched_at: "2026-05-26T20:51:50+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,32 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## JAIRO Cloudサービス再開のお知らせ（停止期間：5/22～5/25）
+
+2026-05-25 14:09 頃
+
+```
+JAIRO Cloud利用機関各位
+
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+
+5月22日（金）より停止しておりましたJAIRO Cloudのサービスにつきまして、
+本日 5月25日（月）13:30 に再開いたしました。
+
+現在は通常通りJAIRO Cloudのご利用いただけます。本メールをもちまして、
+データの登録・更新等のログインを伴う作業も再開いただけます。
+
+なお、サービス再開直後はアクセスが集中するため、一時的に
+「502 Bad Gateway」等のエラーが表示されたり、動作が非常に重くなったり
+する場合がございます。その場合には、誠に恐れ入りますが、
+しばらく時間を置いてから再度操作をお試しください。
+
+参考）
+【重要】JAIRO Cloudサービス停止のお知らせ（5/22～5/25）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91JAIRO-Cloud%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%81%9C%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%885%2F22%EF%BD%9E5%2F25%EF%BC%89
+```
 
 ## 【解消済】JAIRO Cloudの動作不安定等についてのお知らせ（2026-05-20）
 
