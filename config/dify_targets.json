@@ -1,0 +1,8 @@
+{
+  "dataset_id": "3c950956-51f3-4fed-a6dd-b2f01f70bd8b",
+  "api_base": "https://api.dify.ai/v1",
+  "documents": {
+    "docs/combined-confluence.md": "5e990880-dada-4009-9db9-01169783d73e",
+    "docs/combined-jpcoar.md":     "1fed6de9-319b-4d1d-99a3-be165fc78217"
+  }
+}

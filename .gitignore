@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+# Scraper caches (not committed)
+.cache/confluence.json
+.cache/jpcoar.json
+# dify_sync_state.json is intentionally committed (tracks what was sent to Dify)
+*.log
+.DS_Store

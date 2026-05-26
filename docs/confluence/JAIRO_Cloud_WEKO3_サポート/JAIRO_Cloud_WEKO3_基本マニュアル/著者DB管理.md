@@ -1,0 +1,18 @@
+---
+title: 著者DB管理
+source: confluence
+source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43548729/DB"
+fetched_at: "2026-05-15T04:32:54+00:00"
+ancestors:
+  - JAIRO Cloud（WEKO3）サポート
+  - JAIRO Cloud（WEKO3）基本マニュアル
+via: rest_api
+---
+# 著者DB管理
+
+_Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43548729/DB>_
+
+_階層: JAIRO Cloud（WEKO3）サポート / JAIRO Cloud（WEKO3）基本マニュアル_
+
+| meatwikiの運用終了に伴い、本マニュアルはJPCOAR Webサイト内に移行されました。  移行後の「著者DB管理」ページは[こちら](https://jpcoar.org/support/jairo-cloud/manual/author-db/)  ※「基本マニュアル」トップページは[こちら](https://jpcoar.org/support/jairo-cloud/manual/)  移行に関する詳細は[JPCOAR Webサイトのお知らせ](https://jpcoar.org/news/3110/)をご確認ください。 |
+| --- |
