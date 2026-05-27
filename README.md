@@ -72,26 +72,154 @@ python scrape.py --probe               # 接続確認のみ（取得なし）
 .
 ├── .github/workflows/scrape.yml
 ├── scrapers/
-│   ├── common.py        # HTTP, MD変換, frontmatter等の共通処理
+│   ├── common.py        # HTTP, MD変換, frontmatter等の共通処理 (PAGE_SEPARATOR定義)
+│   ├── classify.py      # 障害告知ページの自動判別・構造化抽出
 │   ├── jpcoar.py        # jpcoar.org 用アダプタ
 │   ├── confluence.py    # Atlassian Confluence 用アダプタ
 │   └── excel.py         # .xlsx → Markdown変換
 ├── scripts/
-│   └── sync_to_dify.py  # Dify ナレッジベース同期スクリプト
+│   ├── build_combined.py  # combined-*.md 生成 (障害告知サマリー付き)
+│   └── sync_to_dify.py    # Dify ナレッジベース同期スクリプト
 ├── config/
-│   └── dify_targets.json  # Dify Dataset/Document ID マッピング
+│   ├── classify_patterns.json  # 障害告知判別パターン定義
+│   └── dify_targets.json       # Dify Dataset/Document ID マッピング
+├── tests/
+│   └── test_classify.py  # 分類器のユニットテスト
 ├── scrape.py            # エントリポイント
 ├── requirements.txt
 ├── docs/
-│   ├── index.md         # 自動生成: 全ページ目次
-│   ├── jpcoar/          # JPCOARマニュアル
-│   ├── confluence/      # Confluenceページ
-│   └── assets/          # オリジナルExcel等
+│   ├── index.md                  # 自動生成: 全ページ目次
+│   ├── combined-jpcoar.md        # 自動生成: RAG向け統合ファイル
+│   ├── combined-confluence.md    # 自動生成: RAG向け統合ファイル
+│   ├── jpcoar/                   # JPCOARマニュアル (個別ページ)
+│   ├── confluence/               # Confluenceページ (個別ページ)
+│   └── assets/                   # オリジナルExcel等
 └── .cache/
     ├── confluence.json           # 訪問済URLキャッシュ (.gitignore で除外)
     ├── jpcoar.json               # 訪問済URLキャッシュ (.gitignore で除外)
     └── dify_sync_state.json      # Dify同期状態 (git管理・.gitignore で除外しない)
 ```
+
+---
+
+## RAG向けMarkdown構造 (combined-*.md)
+
+Dify ナレッジベースへの取り込みに最適化した構造になっています。
+
+### combined-*.md の構成
+
+```
+[YAMLフロントマター]
+---
+title: "JAIROクラウド ドキュメント (JPCOAR)"
+source: "jpcoar.org/support/jairo-cloud/manual/"
+last_updated: "2026-05-25T04:08:34+00:00"
+total_pages: 312
+total_announces: 23
+---
+
+# JAIROクラウド ドキュメント (JPCOAR)
+...
+
+---
+
+# 制限事項・既知の不具合一覧   ← 障害告知サマリーセクション
+## 🔴 現在停止・制限中
+### インデックス削除機能の利用停止
+- 発生日: 2024-09-09
+- 状況: 停止中
+...
+
+---
+
+# 個別ドキュメント
+## アイテムタイプ管理    ← 各ページ (--- で区切られる)
+...
+
+---
+
+## インデックス管理
+...
+```
+
+### チャンキング設定 (Dify)
+
+| 設定項目 | 値 | 理由 |
+|---|---|---|
+| セパレータ | `\n\n---\n\n` | ページ境界と一致 |
+| max_tokens | 2000 | 1ページ ≒ 1チャンク |
+| モード | カスタム | 親子モードはAPI非対応のため |
+
+`sync_to_dify.py` がこの設定を自動的に送信します (`scrapers/common.py` の `PAGE_SEPARATOR` 定数を参照)。
+
+---
+
+## 障害告知の自動分類
+
+`scrapers/classify.py` が以下のロジックでページを分類します:
+
+1. タイトルに `exclude_keywords` (基本マニュアル等) → 除外
+2. タイトルに `announce_title_keywords` (障害/停止/復旧等) → 障害告知
+3. 本文冒頭500文字に `announce_body_signals` が2個以上 → 障害告知
+4. それ以外 → 通常ページ
+
+### 抽出される構造化情報
+
+| フィールド | 内容 | 例 |
+|---|---|---|
+| `occurred_at` | 発生日 (ISO形式) | `2024-09-09` |
+| `status` | 対応状況 | `unresolved` / `in_progress` / `scheduled` / `resolved` |
+| `affected_features` | 影響機能リスト | `["OAI-PMH出力", "インデックス削除"]` |
+| `workaround` | 回避策テキスト | `"インデックスを「非公開」に設定する"` |
+
+取りこぼしは `None` で返します (best-effort 設計)。ログで監視可能:
+
+```
+classify_pages: 23 announces, 289 regulars (total 312)
+```
+
+### パターンの調整
+
+`config/classify_patterns.json` を編集してパターンを追加・修正できます:
+
+```json
+{
+  "announce_title_keywords": ["障害", "停止", ...],
+  "announce_body_signals":   ["JAIRO Cloud事務局です", ...],
+  "exclude_keywords":        ["基本マニュアル", ...],
+  "status_keywords": {
+    "resolved":    ["解消済み", ...],
+    "in_progress": ["対応中", ...]
+  }
+}
+```
+
+変更後は `pytest tests/` でテストが pass することを確認してください。
+
+---
+
+## テストの実行
+
+```bash
+pip install pytest
+pytest tests/ -v
+```
+
+---
+
+## Dify ナレッジ再構築手順
+
+RAG品質を改善するため、ナレッジを作り直す場合の手順:
+
+1. **既存ナレッジを削除** (Dify Cloud UI)
+2. **新規ナレッジを作成**
+   - チャンキングモード: カスタム
+   - セパレータ: `\n\n---\n\n`
+   - max_tokens: 2000
+3. **`combined-jpcoar.md` と `combined-confluence.md` をアップロード**
+4. **新しい Document ID を取得** (各ドキュメントのURL末尾)
+5. **`config/dify_targets.json` を更新**
+6. **`python scripts/sync_to_dify.py --force` で初回同期**
 
 ---
 

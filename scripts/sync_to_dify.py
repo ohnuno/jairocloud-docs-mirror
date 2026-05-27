@@ -16,10 +16,9 @@ import json
 import logging
 import sys
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
 
 import requests
 from tenacity import (
@@ -34,7 +33,7 @@ from tenacity import (
 # Bootstrap: allow importing content_hash from scrapers/common.py
 # ---------------------------------------------------------------------------
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from scrapers.common import content_hash  # noqa: E402
+from scrapers.common import content_hash, PAGE_SEPARATOR  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -56,6 +55,28 @@ def _retry_decorator():
     )
 
 
+def _url_path_for_log(url: str) -> str:
+    """/v1/ 以降のパスをログ用に返す。/v1/ がない場合は URL 全体を返す。"""
+    marker = "/v1/"
+    idx = url.find(marker)
+    return url[idx + len(marker):] if idx != -1 else url
+
+
+def _parse_retry_after(headers, default: int = 60) -> int:
+    """Retry-After ヘッダーを秒数として解析する。
+
+    RFC 7231 では整数秒と HTTP-date の両方が許容されるが、
+    Dify は整数秒のみを返す想定。HTTP-date など非整数値が来た場合は
+    ValueError を避けてデフォルト値にフォールバックする。
+    """
+    val = headers.get("Retry-After", str(default))
+    try:
+        return int(val)
+    except ValueError:
+        logger.warning("Unexpected Retry-After value %r; defaulting to %ds", val, default)
+        return default
+
+
 @_retry_decorator()
 def _post_with_retry(session: requests.Session, url: str, payload: dict) -> requests.Response:
     """POST with retry on network errors.
@@ -65,7 +86,7 @@ def _post_with_retry(session: requests.Session, url: str, payload: dict) -> requ
     """
     resp = session.post(url, json=payload, timeout=60)
     if resp.status_code == 429:
-        retry_after = int(resp.headers.get("Retry-After", "60"))
+        retry_after = _parse_retry_after(resp.headers)
         logger.warning("Rate limited (429). Waiting %ds...", retry_after)
         time.sleep(retry_after)
         resp = session.post(url, json=payload, timeout=60)
@@ -80,7 +101,7 @@ def _get_with_retry(session: requests.Session, url: str) -> requests.Response:
     """
     resp = session.get(url, timeout=30)
     if resp.status_code == 429:
-        retry_after = int(resp.headers.get("Retry-After", "60"))
+        retry_after = _parse_retry_after(resp.headers)
         logger.warning("Rate limited (429) on GET. Waiting %ds...", retry_after)
         time.sleep(retry_after)
         resp = session.get(url, timeout=30)
@@ -161,7 +182,8 @@ def compute_file_hash(file_path: Path) -> str:
     """
     text = file_path.read_text(encoding="utf-8")
     lines = [ln for ln in text.splitlines(keepends=True)
-             if not ln.startswith("_自動生成")]
+             if not ln.startswith("_自動生成")
+             and not ln.startswith("last_updated:")]
     return content_hash("".join(lines))
 
 
@@ -217,8 +239,9 @@ def update_document(
                     {"id": "remove_urls_emails",  "enabled": False},
                 ],
                 "segmentation": {
-                    "separator": "\n\n",
-                    "max_tokens": 500,
+                    # PAGE_SEPARATOR と一致させること (scrapers/common.py)
+                    "separator": PAGE_SEPARATOR,
+                    "max_tokens": 2000,
                 },
             },
         },
@@ -237,12 +260,12 @@ def update_document(
         resp = _post_with_retry(session, url, payload)
 
         if resp.status_code == 404:
-            logger.debug("404 on %s; trying next endpoint", url.split("/v1/")[1])
+            logger.debug("404 on %s; trying next endpoint", _url_path_for_log(url))
             continue
 
         if not resp.ok:
             raise RuntimeError(
-                f"Dify API error {resp.status_code} at {url.split('/v1/')[1]}: {resp.text[:300]}"
+                f"Dify API error {resp.status_code} at {_url_path_for_log(url)}: {resp.text[:300]}"
             )
 
         data = resp.json()

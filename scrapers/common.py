@@ -36,6 +36,10 @@ USER_AGENT = f"jairocloud-docs-mirror-scraper/0.1 ({_contact})"
 DEFAULT_TIMEOUT = 30
 REQUEST_DELAY = 1.0  # seconds between requests to be polite
 
+# combined-*.md でページ間を区切る文字列。
+# sync_to_dify.py の process_rule.segmentation.separator と一致させること。
+PAGE_SEPARATOR = "\n\n---\n\n"
+
 
 # ---------------------------------------------------------------------------
 # HTTP
@@ -134,9 +138,24 @@ def html_to_markdown(html: str, *, content_selector: Optional[str] = None) -> tu
             el.decompose()
 
     md = _md(str(target), heading_style="ATX", bullets="-")
-    # Collapse runs of >2 blank lines that markdownify sometimes produces.
-    md = re.sub(r"\n{3,}", "\n\n", md).strip()
+    md = post_process_markdown(md)
     return md, soup
+
+
+def post_process_markdown(md: str) -> str:
+    """markdownify の出力を RAG 向けに正規化する。
+
+    - 3 個以上の連続改行を 2 個に圧縮
+    - 見出し直下の余計な空行を削除
+    - リスト項目間の余計な空行を削除
+    """
+    # 3個以上の連続改行 → 2個
+    md = re.sub(r"\n{3,}", "\n\n", md)
+    # 見出し直後の空行を除去 (見出し行の直下が空行でなくコンテンツに続くようにする)
+    md = re.sub(r"(^#{1,6} .+)\n\n+(?=\S)", r"\1\n", md, flags=re.MULTILINE)
+    # リスト項目間の空行を除去
+    md = re.sub(r"(\n- .+)\n\n+(?=- )", r"\1\n", md)
+    return md.strip()
 
 
 def extract_title(soup: BeautifulSoup) -> str:
@@ -187,7 +206,14 @@ def url_to_relpath(url: str, *, default_ext: str = ".md") -> Path:
             path = str(p.with_suffix(default_ext))
 
     # Sanitize: replace dangerous chars with '_'.
+    # If non-ASCII characters are present (e.g. Japanese), they all collapse to
+    # '_' which can make distinct URLs map to the same output path. Append a
+    # short URL digest to keep the filenames unique and stable.
+    has_non_ascii = bool(re.search(r"[^\x00-\x7f]", path))
     path = _SAFE_CHARS.sub("_", path)
+    if has_non_ascii:
+        p = Path(path)
+        path = str(p.parent / (p.stem + "_" + url_digest(url) + p.suffix))
     return Path(path)
 
 

@@ -16,6 +16,7 @@ from pathlib import Path
 
 from scrapers import confluence, jpcoar
 from scrapers.common import now_iso
+from scripts.build_combined import build_all
 
 DOCS_DIR = Path("docs")
 CACHE_DIR = Path(".cache")
@@ -63,42 +64,6 @@ def probe() -> int:
     return 0
 
 
-def generate_combined(docs_dir: Path) -> None:
-    """Generate docs/combined-{source}.md — one file per source with all content inlined.
-
-    This is the file to register with NotebookLM (website or text upload),
-    because NotebookLM does not follow links on index pages.
-    """
-    for source_name in sorted(SOURCES.keys()):
-        source_dir = docs_dir / source_name
-        if not source_dir.exists():
-            continue
-        md_files = sorted(source_dir.rglob("*.md"))
-        if not md_files:
-            continue
-
-        parts = [
-            f"# JAIROクラウド ドキュメント — {source_name}",
-            "",
-            f"_自動生成 (結合ファイル): {now_iso()}_",
-            "",
-            "---",
-            "",
-        ]
-        for md in md_files:
-            body = md.read_text(encoding="utf-8")
-            # Strip YAML frontmatter (--- ... ---)
-            if body.startswith("---"):
-                end = body.find("\n---", 3)
-                if end != -1:
-                    body = body[end + 4:].lstrip("\n")
-            parts.append(body.strip())
-            parts.append("\n\n---\n")
-
-        out = docs_dir / f"combined-{source_name}.md"
-        out.write_text("\n".join(parts) + "\n", encoding="utf-8")
-        size_kb = out.stat().st_size // 1024
-        print(f"Wrote {out}  ({len(md_files)} pages, {size_kb} KB)")
 
 
 def generate_index(docs_dir: Path) -> None:
@@ -215,7 +180,7 @@ def main() -> int:
             all_summaries.append({"source": name, "error": str(e)})
 
     if not args.no_index and not args.dry_run:
-        generate_combined(DOCS_DIR)
+        build_all(DOCS_DIR, patterns_path=Path("config/classify_patterns.json"))
         generate_index(DOCS_DIR)
 
     print("\n=== All done ===")
