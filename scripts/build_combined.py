@@ -208,7 +208,6 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
         if not group_pages:
             return
         lines.append(f"## {emoji} {label}")
-        lines.append("")
         for page in group_pages:
             meta = page.announce_metadata
             lines.append(f"### {page.title}")
