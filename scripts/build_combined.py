@@ -124,16 +124,33 @@ def _demote_headings(md: str) -> str:
     return _HEADING_RE.sub(_replace, md)
 
 
+def _escape_horizontal_rules(md: str) -> str:
+    """ページ本文中の水平線 (---) を PAGE_SEPARATOR との衝突を避けるため置換する。
+
+    Markdown の水平線は単独行の `---` (または `***`, `___`) で表現されるが、
+    `\n\n---\n\n` は PAGE_SEPARATOR と完全一致するため Dify が誤って分割してしまう。
+    `- - -` に置換することで視覚的な区切りを保ちつつ衝突を回避する。
+    """
+    # 前後が空行または文書端である standalone `---` を置換
+    md = re.sub(r"(?m)^---$", "- - -", md)
+    # `***` / `___` も同様に置換 (まれだが念のため)
+    md = re.sub(r"(?m)^\*\*\*$", "* * *", md)
+    md = re.sub(r"(?m)^___$", "_ _ _", md)
+    return md
+
+
 def _normalize_page_body(raw_body: str, title: str) -> str:
     """ページ本文を combined ファイル用に正規化する。
 
     1. 先頭の `# {title}` 行を除去 (combined 側で ## タイトルとして出力するため)
     2. 残りの見出しを 1 レベル降格
+    3. 水平線 (---) を PAGE_SEPARATOR との衝突を避けるため置換
     """
     # 先頭の # 見出し行を除去 (タイトルと一致するか問わず、先頭 H1 を除去)
     body = re.sub(r"^# .+\n?", "", raw_body, count=1)
     body = body.lstrip("\n")
     body = _demote_headings(body)
+    body = _escape_horizontal_rules(body)
     return body
 
 
@@ -335,9 +352,6 @@ def build_source(
     summary = _build_summary_section(announces)
     if summary:
         parts.append(summary)
-
-    # 個別ドキュメントセクション
-    parts.append("# 個別ドキュメント\n\n以下、ページごとの詳細ドキュメントです。")
 
     # 通常ページ → 障害告知ページの順で出力
     ordered_pages: list[tuple[PageInfo, str]] = []
