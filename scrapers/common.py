@@ -38,10 +38,10 @@ REQUEST_DELAY = 1.0  # seconds between requests to be polite
 
 # combined-*.md でページ間を区切る文字列。
 # sync_to_dify.py の process_rule.segmentation.separator と一致させること。
-# \n---\n を使用: \n\n---\n\n は Dify 汎用モードが \n\n でも追加分割するため
-# 極小チャンクが大量発生する問題を回避するために単一改行を使用。
-# Dify UI の「チャンク識別子」には \n---\n を設定すること。
-PAGE_SEPARATOR = "\n---\n"
+# \n\n---\n\n を使用: ページ本文から \n\n を除去することで、
+# この文字列のみが Dify のチャンク境界となる。
+# Dify UI の「チャンク識別子」には \n\n---\n\n を設定すること。
+PAGE_SEPARATOR = "\n\n---\n\n"
 
 
 # ---------------------------------------------------------------------------

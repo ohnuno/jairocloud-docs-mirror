@@ -107,33 +107,30 @@ def _parse_ancestors(meta: dict) -> list[str]:
 # 見出しレベル降格
 # ---------------------------------------------------------------------------
 
-_HEADING_RE = re.compile(r"^(#{1,6}) (.+)", re.MULTILINE)
+def _convert_h2plus_to_bold(md: str) -> str:
+    """H2 以上の見出し (##...) を太字に変換する。
 
-
-def _demote_headings(md: str) -> str:
-    """全ての見出しを 1 レベル降格する (# → ##, ## → ###, etc.)。
-
-    ###### はそれ以上降格できないため ####### にはせず ###### のまま。
+    Dify 汎用モードは ## 以上の見出しをチャンク境界として扱うため、
+    ページ内部の ## を **太字** に変換してページを1チャンクに収める。
+    H1 (#) は変換しない: Dify は H1 ではチャンクを分割しないため、
+    ページ先頭タイトルとして利用できる。
+    テキストなしの空見出し (## のみ) は削除する。
     """
-    def _replace(m: re.Match) -> str:
-        hashes = m.group(1)
-        text = m.group(2)
-        new_hashes = "#" * min(len(hashes) + 1, 6)
-        return f"{new_hashes} {text}"
-
-    return _HEADING_RE.sub(_replace, md)
+    # 空見出し (## / ### 等、テキストなし) を削除
+    md = re.sub(r"(?m)^#{2,6}\s*$", "", md)
+    # テキストあり見出しを太字に変換
+    md = re.sub(r"(?m)^#{2,6} (.+)$", r"**\1**", md)
+    return md
 
 
 def _escape_horizontal_rules(md: str) -> str:
     """ページ本文中の水平線 (---) を PAGE_SEPARATOR との衝突を避けるため置換する。
 
-    Markdown の水平線は単独行の `---` (または `***`, `___`) で表現されるが、
-    `\n\n---\n\n` は PAGE_SEPARATOR と完全一致するため Dify が誤って分割してしまう。
+    PAGE_SEPARATOR = `\\n\\n---\\n\\n` は単独行 `---` を含むため、
+    本文中の `---` と衝突するとチャンクが意図せず分割される。
     `- - -` に置換することで視覚的な区切りを保ちつつ衝突を回避する。
     """
-    # 前後が空行または文書端である standalone `---` を置換
     md = re.sub(r"(?m)^---$", "- - -", md)
-    # `***` / `___` も同様に置換 (まれだが念のため)
     md = re.sub(r"(?m)^\*\*\*$", "* * *", md)
     md = re.sub(r"(?m)^___$", "_ _ _", md)
     return md
@@ -142,18 +139,16 @@ def _escape_horizontal_rules(md: str) -> str:
 def _normalize_page_body(raw_body: str, title: str) -> str:
     """ページ本文を combined ファイル用に正規化する。
 
-    1. 先頭の `# {title}` 行を除去 (combined 側で ## タイトルとして出力するため)
-    2. 残りの見出しを 1 レベル降格
+    1. 先頭の H1 行を除去 (combined 側で `# タイトル` として出力するため)
+    2. H2 以上の見出しを太字に変換 (Dify が ## でチャンクを分割するのを防ぐ)
     3. 水平線 (---) を PAGE_SEPARATOR との衝突を避けるため置換
     4. 段落間の空行 (\\n\\n) を単一改行 (\\n) に縮小
-       → Dify 汎用モードは \\n\\n でも分割するため、ページ内部で細断されるのを防ぐ
+       → PAGE_SEPARATOR 内の \\n\\n だけがチャンク境界となる
     """
-    # 先頭の # 見出し行を除去 (タイトルと一致するか問わず、先頭 H1 を除去)
     body = re.sub(r"^# .+\n?", "", raw_body, count=1)
     body = body.lstrip("\n")
-    body = _demote_headings(body)
+    body = _convert_h2plus_to_bold(body)
     body = _escape_horizontal_rules(body)
-    # 段落区切り (\n\n) を単一改行に縮小し、ページを Dify の1チャンク単位に収める
     body = re.sub(r"\n{2,}", "\n", body)
     return body
 
@@ -178,7 +173,6 @@ def _build_frontmatter(
         f"total_announces: {total_announces}",
         "---",
     ]
-    # 末尾は改行1つ: PAGE_SEPARATOR が \n---\n のため \n\n は不要
     return "\n".join(lines) + "\n"
 
 
@@ -226,10 +220,10 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
     def _render_group(group_pages: list[PageInfo], label: str, emoji: str) -> None:
         if not group_pages:
             return
-        lines.append(f"## {emoji} {label}")
+        lines.append(f"**{emoji} {label}**")
         for page in group_pages:
             meta = page.announce_metadata
-            lines.append(f"### {page.title}")
+            lines.append(f"**{page.title}**")
             if meta:
                 if meta.occurred_at:
                     lines.append(f"- 発生日: {meta.occurred_at}")
@@ -262,9 +256,13 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
 
 
 def _build_page_section(page: PageInfo, raw_body: str, title: str) -> str:
-    """ページ 1 件分のセクション文字列を生成する。"""
+    """ページ 1 件分のセクション文字列を生成する。
+
+    H1 (#) でタイトルを出力する: Dify 汎用モードは H1 ではチャンクを分割しないため、
+    ページ全体が 1 チャンクに収まる（max_tokens 超過時のみ追加分割）。
+    """
     body = _normalize_page_body(raw_body, title)
-    return f"## {title}\n{body}".rstrip()
+    return f"# {title}\n{body}".rstrip()
 
 
 # ---------------------------------------------------------------------------
