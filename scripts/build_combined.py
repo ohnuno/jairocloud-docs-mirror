@@ -145,12 +145,16 @@ def _normalize_page_body(raw_body: str, title: str) -> str:
     1. 先頭の `# {title}` 行を除去 (combined 側で ## タイトルとして出力するため)
     2. 残りの見出しを 1 レベル降格
     3. 水平線 (---) を PAGE_SEPARATOR との衝突を避けるため置換
+    4. 段落間の空行 (\\n\\n) を単一改行 (\\n) に縮小
+       → Dify 汎用モードは \\n\\n でも分割するため、ページ内部で細断されるのを防ぐ
     """
     # 先頭の # 見出し行を除去 (タイトルと一致するか問わず、先頭 H1 を除去)
     body = re.sub(r"^# .+\n?", "", raw_body, count=1)
     body = body.lstrip("\n")
     body = _demote_headings(body)
     body = _escape_horizontal_rules(body)
+    # 段落区切り (\n\n) を単一改行に縮小し、ページを Dify の1チャンク単位に収める
+    body = re.sub(r"\n{2,}", "\n", body)
     return body
 
 
@@ -174,8 +178,8 @@ def _build_frontmatter(
         f"total_announces: {total_announces}",
         "---",
     ]
-    # 末尾に 2 改行: frontmatter と本文の間は空行1つ (PAGE_SEPARATOR は本文内セクション間に使う)
-    return "\n".join(lines) + "\n\n"
+    # 末尾は改行1つ: PAGE_SEPARATOR が \n---\n のため \n\n は不要
+    return "\n".join(lines) + "\n"
 
 
 # ---------------------------------------------------------------------------
@@ -204,11 +208,9 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
 
     lines: list[str] = [
         "# 制限事項・既知の不具合一覧",
-        "",
         "JAIROクラウドで現在制限されている機能、既知の不具合、障害情報の一覧です。",
         "この一覧は自動生成されており、各告知の詳細は本ドキュメント内の対応する",
         "セクションで確認できます。",
-        "",
     ]
 
     # ステータスごとにグループ化
@@ -242,7 +244,6 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
                     wa = meta.workaround.replace("\n", " ")[:80]
                     lines.append(f"- 回避策: {wa}")
             lines.append(f"- 詳細: 本ドキュメント内「{page.title}」セクション参照")
-            lines.append("")
 
     for status_key in _STATUS_ORDER:
         emoji = _STATUS_EMOJI.get(status_key, "")
@@ -263,7 +264,7 @@ def _build_summary_section(announces: list[PageInfo]) -> str:
 def _build_page_section(page: PageInfo, raw_body: str, title: str) -> str:
     """ページ 1 件分のセクション文字列を生成する。"""
     body = _normalize_page_body(raw_body, title)
-    return f"## {title}\n\n{body}".rstrip()
+    return f"## {title}\n{body}".rstrip()
 
 
 # ---------------------------------------------------------------------------
@@ -345,7 +346,7 @@ def build_source(
     # フロントマター以降のセクションを PAGE_SEPARATOR で連結する
     # (フロントマター自体は fm として別扱い)
     parts: list[str] = [
-        f"# {doc_title}\n\n{description}",
+        f"# {doc_title}\n{description}",
     ]
 
     # サマリーセクション
