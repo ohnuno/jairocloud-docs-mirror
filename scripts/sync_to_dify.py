@@ -241,7 +241,7 @@ def update_document(
                 "segmentation": {
                     # PAGE_SEPARATOR と一致させること (scrapers/common.py)
                     "separator": PAGE_SEPARATOR,
-                    "max_tokens": 2000,
+                    "max_tokens": 4000,
                 },
             },
         },
