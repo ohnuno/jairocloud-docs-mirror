@@ -8,5 +8,6 @@ venv/
 .cache/confluence.json
 .cache/jpcoar.json
 # dify_sync_state.json is intentionally committed (tracks what was sent to Dify)
+# gdocs_sync_state.json is intentionally committed (tracks what was sent to Google Docs)
 *.log
 .DS_Store

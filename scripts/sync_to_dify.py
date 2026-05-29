@@ -5,7 +5,8 @@ Usage (run from repository root):
     python scripts/sync_to_dify.py [--force] [--dry-run] [-v]
 
 Environment variables:
-    DIFY_API_KEY   (required) Dify API key (dataset-xxx... format)
+    DIFY_API_KEY   (optional) Dify API key (dataset-xxx... format).
+                   Unset means skip Dify sync (opt-in behaviour).
     DIFY_API_BASE  (optional) Override api_base in config (for testing)
 """
 
@@ -113,36 +114,41 @@ def _get_with_retry(session: requests.Session, url: str) -> requests.Response:
 # ---------------------------------------------------------------------------
 
 
-def load_config(config_path: Path = CONFIG_PATH) -> dict:
+def load_config(config_path: Path = CONFIG_PATH) -> dict | None:
     """Load and validate dify_targets.json.
 
-    Raises SystemExit if placeholder values remain or the file is missing.
+    Returns None (with [SKIP] log) if:
+    - File does not exist
+    - Placeholder values remain (opt-in: institutions using only Google Docs can leave
+      this file unconfigured and Dify sync will be skipped cleanly)
+
+    Raises SystemExit on JSON parse errors or wrong structure.
     """
     if not config_path.exists():
-        logger.error("Config file not found: %s", config_path)
-        sys.exit(1)
+        logger.info("[SKIP] %s not found. Skipping Dify sync.", config_path)
+        return None
 
     cfg = json.loads(config_path.read_text(encoding="utf-8"))
 
     # Check top-level fields
     for key, val in cfg.items():
         if isinstance(val, str) and val.startswith("REPLACE_WITH_"):
-            logger.error(
-                "config key '%s' still has placeholder value. "
-                "Edit %s and fill in the real IDs.",
-                key, config_path,
+            logger.info(
+                "[SKIP] config key '%s' still has placeholder value. "
+                "Skipping Dify sync.",
+                key,
             )
-            sys.exit(1)
+            return None
 
     # Check per-document IDs
     for md_path, doc_id in cfg.get("documents", {}).items():
         if isinstance(doc_id, str) and doc_id.startswith("REPLACE_WITH_"):
-            logger.error(
-                "Document '%s' still has placeholder ID '%s'. "
-                "Edit %s and fill in the real IDs.",
-                md_path, doc_id, config_path,
+            logger.info(
+                "[SKIP] Document '%s' still has placeholder ID. "
+                "Skipping Dify sync.",
+                md_path,
             )
-            sys.exit(1)
+            return None
 
     return cfg
 
@@ -430,13 +436,16 @@ def main() -> int:
 
     # --- Environment ---
     import os
-    api_key = os.environ.get("DIFY_API_KEY", "")
+    api_key = os.environ.get("DIFY_API_KEY", "").strip()
     if not api_key:
-        logger.error("DIFY_API_KEY environment variable is not set.")
-        return 1
+        logger.info("[SKIP] DIFY_API_KEY is not set. Skipping Dify sync.")
+        return 0
 
     # --- Config & State ---
     cfg = load_config()
+    if cfg is None:
+        return 0  # load_config already logged [SKIP]
+
     api_base = os.environ.get("DIFY_API_BASE", cfg.get("api_base", "https://api.dify.ai/v1")).rstrip("/")
     dataset_id = cfg["dataset_id"]
     documents: dict[str, str] = cfg["documents"]

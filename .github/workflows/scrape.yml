@@ -16,6 +16,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      force_gdocs_sync:
+        description: 'Google Docs: SHA256一致でも強制同期'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
   contents: write
@@ -54,7 +59,7 @@ jobs:
       - name: Restore visited cache
         uses: actions/cache@v4
         with:
-          # dify_sync_state.json は git 管理なのでキャッシュ対象から除外
+          # dify_sync_state.json / gdocs_sync_state.json は git 管理なのでキャッシュ対象から除外
           path: |
             .cache/confluence.json
             .cache/jpcoar.json
@@ -92,11 +97,13 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
+      # Dify と Google Docs は独立して実行（一方が失敗しても他方を実行）
       - name: Sync to Dify
+        id: sync_dify
         # commit_docs が成功した場合に常時実行（SHA256 差分で効率を保証）
-        # changed=false の通常日も実行するが、全ファイル SKIP で数秒で終わる
-        # これにより前回 sync 失敗後の recovery が可能になる
+        # DIFY_API_KEY 未設定 or config/dify_targets.json にプレースホルダ残りの場合は SKIP で終了
         if: always() && steps.commit_docs.outcome == 'success'
+        continue-on-error: true
         env:
           DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
         run: |
@@ -106,16 +113,46 @@ jobs:
           fi
           python scripts/sync_to_dify.py $ARGS
 
+      - name: Sync to Google Docs
+        id: sync_gdocs
+        # GOOGLE_SERVICE_ACCOUNT_JSON 未設定 or config/gdocs_targets.json にプレースホルダ残りの場合は SKIP で終了
+        if: always() && steps.commit_docs.outcome == 'success'
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DRIVE_SCOPE: ${{ secrets.GOOGLE_DRIVE_SCOPE }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.force_gdocs_sync }}" = "true" ]; then
+            ARGS="--force"
+          fi
+          python scripts/sync_to_gdocs.py $ARGS
+
       - name: Commit sync state
         if: always() && steps.commit_docs.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .cache/dify_sync_state.json || true
+          git add .cache/dify_sync_state.json .cache/gdocs_sync_state.json || true
           if git diff --cached --quiet; then
             echo "No sync state changes."
           else
-            git commit -m "chore: update dify sync state ($(date -u +'%Y-%m-%dT%H:%MZ'))"
+            git commit -m "chore: update sync state ($(date -u +'%Y-%m-%dT%H:%MZ'))"
             git pull --rebase
             git push
           fi
+
+      - name: Check sync results
+        # 両 sync の結果を集約し、いずれかが失敗していればジョブ全体を失敗にする
+        if: always() && steps.commit_docs.outcome == 'success'
+        run: |
+          FAILED=false
+          if [ "${{ steps.sync_dify.outcome }}" = "failure" ]; then
+            echo "::error::Dify sync failed"
+            FAILED=true
+          fi
+          if [ "${{ steps.sync_gdocs.outcome }}" = "failure" ]; then
+            echo "::error::Google Docs sync failed"
+            FAILED=true
+          fi
+          if [ "$FAILED" = "true" ]; then exit 1; fi
