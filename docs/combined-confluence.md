@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-05-31T20:02:03+00:00"
+last_updated: "2026-06-01T21:58:23+00:00"
 total_pages: 39
 total_announces: 6
 ---
@@ -3036,13 +3036,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/05/25 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 1:30 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
   2026/05/22 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2 "JAIROCloud_WEKO3")
   2026/05/01 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3Nzc2MDg5OTkwMDAsIlx0MTUwNjY3MjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
-![お待ちください](/wiki/s/-1424446706/6452/93839b3948fe15bf5841ca63824a386ae15c39ad/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/1977016474/6452/54399c4037d8c15f4d8b54746515a62f34698244/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3052,6 +3052,26 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【2026/6/15(月)・6/16(火)】JAIRO Cloudメンテナンスのお知らせ**
+2026-06-01 11:34 頃
+```
+JAIRO Cloud
+ご担当者様
+平素より大変お世話になっております。 
+JAIRO Cloud事務局です。 
+JAIRO Cloudのユーザー管理システムで利用しているWAF（Web
+Application Firewall）のサーバメンテナンスを下記の通り行います。
+しばしばご不便をおかけしており大変申し訳ございませんが、
+何卒ご理解、ご協力くださいますよう、お願い申し上げます。
+・作業日時：
+　　2026/6/15（月）17:45-20:00（予定）
+　　2026/6/16（火）17:45-20:00（予定）
+・作業内容：JAIRO Cloud UMS WAFサーバのメンテナンス
+・影響範囲：各日18:00頃、ユーザー管理システムについてサービスの瞬断が発生いたします。
+・作業中のお願い：
+　　上記作業日時の間はJAIRO Cloudへのログイン、及びユーザー登録・削除をお控えください。
+　　なお、作業終了のご連絡は行いません。
+```
 **JAIRO Cloudサービス再開のお知らせ（停止期間：5/22～5/25）**
 2026-05-25 14:09 頃
 ```
