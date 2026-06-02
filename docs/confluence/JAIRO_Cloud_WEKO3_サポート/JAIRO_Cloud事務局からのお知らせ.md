@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-06-01T21:58:23+00:00"
+fetched_at: "2026-06-02T21:43:59+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,52 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## 【ご報告】JAIRO Cloudの一連のサービス停止について
+2026-06-02 13:21 頃
+
+```
+JAIRO Cloud利用機関各位
+
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+
+2026年4月中旬より、JAIRO Cloudの基盤（インフラ）として利用している、
+外部ベンダーのパブリッククラウドサービスの大規模メンテナンスが断続的に
+行われてまいりましたが、5月25日（月）まで実施の【第6回】をもちまして、
+今回の一連のメンテナンスがすべて終了したことをご報告いたします。
+（ベンダーから追加メンテナンスの連絡は受けておりません。）
+
+当該メンテナンスに伴うJAIRO Cloudの度重なるサービス停止により、
+利用機関の皆様には長期間にわたり、コンテンツの閲覧や日常的な登録・更新
+作業等、多大なるご不便とご迷惑をおかけし、誠に申し訳ございませんでした。
+
+当初、メンテナンスは全3回の予定でございましたが、そのアナウンス後も、
+ベンダーより追加のメンテナンス通知が続き、結果として全6回にわたる
+長期間のサービス停止を実施せざるを得ない状況となりました。
+
+可能な限りサービス停止を回避するよう努めてまいりましたが、今回の一連の
+メンテナンスは全世界を対象とした非常に稀かつ緊急のものであったこともあり、
+スケジュールやその通知のタイミングについての調整はかなわず、
+ご利用の皆様には大変ご迷惑をおかけいたしました。重ねてお詫び申し上げます。
+
+本件に対するお問い合わせは、下記署名欄記載のメールアドレスまでお願いいたします。
+今後とも、どうぞよろしくお願いいたします。
+
+参考）これまでのJAIRO Cloud事務局からのお知らせ
+【第1回】～【第3回】サービス停止のお知らせ
+件名：【重要】JAIRO Cloudサービス停止のお知らせ（4/15～4/16・4/23～4/27・5/1～5/7
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91JAIRO-Cloud%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%81%9C%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%884%2F15%EF%BD%9E4%2F16%E3%83%BB4%2F23%EF%BD%9E4%2F27%E3%83%BB5%2F1%EF%BD%9E5%2F7%EF%BC%89
+【第4回】サービス停止のお知らせ
+件名：【重要】JAIRO Cloudサービス停止のお知らせ（5/8～5/11）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91JAIRO-Cloud%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%81%9C%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%885%2F8%EF%BD%9E5%2F11%EF%BC%89
+【第5回】サービス停止のお知らせ
+件名：【重要】JAIRO Cloudサービス停止のお知らせ（5/15～5/19）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91JAIRO-Cloud%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%81%9C%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%885%2F15%EF%BD%9E5%2F19%EF%BC%89
+【第6回】サービス停止のお知らせ
+件名：【重要】JAIRO Cloudサービス停止のお知らせ（5/22～5/25）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91JAIRO-Cloud%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%81%9C%E6%AD%A2%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%885%2F22%EF%BD%9E5%2F25%EF%BC%89
+```
 
 ## 【2026/6/15(月)・6/16(火)】JAIRO Cloudメンテナンスのお知らせ
 2026-06-01 11:34 頃
