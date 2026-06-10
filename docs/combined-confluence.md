@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-06-09T20:53:59+00:00"
+last_updated: "2026-06-10T21:23:28+00:00"
 total_pages: 39
 total_announces: 6
 ---
@@ -17,7 +17,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 セクションで確認できます。
 **🟡 現在対応中**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-05-20
+- 発生日: 2026-06-09
 - 状況: 調査中
 - 回避策: ①データ同期遅延によるエラーについて v2.0.0アップデート後、JAIRO Cloudにおいてデータベース間のデータ同期に遅延が 生じています。この影響で、以
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3036,13 +3036,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/06/02 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 3:42 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
   2026/05/22 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2 "JAIROCloud_WEKO3")
   2026/05/01 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3Nzc2MDg5OTkwMDAsIlx0MTUwNjY3MjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
-![お待ちください](/wiki/s/2073071901/6452/5cb1ce6756cdb72d6cc33db5030cced77a0b6567/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1770663706/6452/cdf55a4e1a46005999996eceff397d4b5896ce5b/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3052,6 +3052,45 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【解消済】JAIRO Cloud アクセス障害について（2026/6/9～6/10）**
+2026-06-10 15:03 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+昨日（6月9日（火））より発生しておりました、JAIRO Cloudにアクセスしづらい、
+またはエラーが表示される障害につきまして、調査及び復旧が完了いたしましたので
+ご報告いたします。
+【障害発生日時】
+2026年6月9日（火） 18:20頃 ～ 2026年6月10日（水）13:00 頃
+【原因】
+・JAIRO Cloud データベースの接続障害
+・特定のIPアドレスからのアクセス急増
+現在は復旧しアクセス可能な状態となっております。
+ご利用機関の皆様には、ご迷惑をおかけし申し訳ございませんでした。
+どうぞよろしくお願いいたします。
+```
+**【調査中】JAIRO Cloud アクセス障害について（2026-06-09～）**
+2026-06-10 10:43 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+平素より大変お世話になっております。 
+JAIRO Cloud事務局です。 
+昨日6月9日（火）18時20分頃より、JAIRO Cloudにアクセスしづらい、またはエラーが
+表示される事象が発生しております。
+■ 発生日時
+2026年6月9日（火）18:20頃 ～ 継続中
+■ 障害内容
+・JAIRO Cloudへアクセスすると「502 Bad Gateway」等のエラーが表示される
+・リポジトリの画面遷移に大幅な時間がかかる、または接続できない
+現在、原因等について調査を進めております。
+ご迷惑をおかけし、誠に申し訳ございません。
+詳細が分かり次第改めてご連絡いたしますので、調査結果をお待ち
+くださいますよう、何卒お願い申し上げます。
+本メールに関するお問い合わせは、署名欄記載のアドレスまでお願いいたします。
+どうぞよろしくお願いいたします。
+```
 **【ご報告】JAIRO Cloudの一連のサービス停止について**
 2026-06-02 13:21 頃
 ```
