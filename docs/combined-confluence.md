@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-06-14T20:15:49+00:00"
+last_updated: "2026-06-15T21:40:01+00:00"
 total_pages: 39
 total_announces: 6
 ---
@@ -16,11 +16,6 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 この一覧は自動生成されており、各告知の詳細は本ドキュメント内の対応する
 セクションで確認できます。
 **🟡 現在対応中**
-**JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-06-09
-- 状況: 調査中
-- 回避策: ①データ同期遅延によるエラーについて v2.0.0アップデート後、JAIRO Cloudにおいてデータベース間のデータ同期に遅延が 生じています。この影響で、以
-- 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
 **2021-06-29**
 - 発生日: 2020-10-27
 - 状況: 調査中
@@ -34,6 +29,12 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 影響範囲: [基本操作　2．ログイン](/wiki/spaces/JAIROCloudWEKO3/pages/43548692#id-基本操作-2．ログイン)
 - 回避策: 回避策
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
+**🟢 解消済み（直近）**
+**JAIRO Cloud事務局からのお知らせ**
+- 発生日: 2026-03-18
+- 状況: 解消済み
+- 回避策: ①データ同期遅延によるエラーについて v2.0.0アップデート後、JAIRO Cloudにおいてデータベース間のデータ同期に遅延が 生じています。この影響で、以
+- 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
 **⚪ 状況不明**
 **JPCOARスキーマVersion2.0対応に関連する問題まとめ**
 - 発生日: 2026-03-19
@@ -3036,13 +3037,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/06/10 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午前 9:31 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [ログイン時によくあるトラブル\_第2版.pdf](/wiki/pages/viewpageattachments.action?pageId=43553760&preview=%2F43553760%2F172032265%2F%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf)
+  昨日の 午前 8:57 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
   2026/05/22 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2 "JAIROCloud_WEKO3")
-  2026/05/01 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3Nzc2MDg5OTkwMDAsIlx0MTUwNjY3MjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
-![お待ちください](/wiki/s/-1224781331/6452/48b4cb858f2d877fc110d28cdd2482f8e4b5ef5f/_/images/icons/wait.gif)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3Nzk0MzU2MjgwMDAsIlx0NDM1NDk1ODQgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
+![お待ちください](/wiki/s/-503014112/6452/b2db07126c97318024882295261688855130198d/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3052,6 +3053,55 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【最終報】JAIRO Cloud：v2.0.0アップデート後に発生したログイン不具合の解消について**
+2026-06-15 9:30 頃
+**●2026/06/15 参考資料**
+[![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43553760/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf?version=1&modificationDate=1781481461488&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/43553760/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf?version=1&modificationDate=1781481461488&cacheVersion=1&api=v2)
+```
+JAIRO Cloud利用機関 各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+2026年3月18日のv2.0.0アップデート以降、長期間にわたり発生しておりました
+JAIRO Cloudへのログイン不具合につきまして、すべての対応が完了いたしましたので
+ご報告申し上げます。
+本件により、年度末・年度始めの多忙な時期に、ご利用の皆様にはご迷惑をおかけし、
+大変申し訳ございませんでした。
+また、v2.0.0アップデートに起因するログイン不具合に関連する影響範囲の調査、
+確認に時間を要したため、本報告が遅れましたことをお詫び申し上げます。
+■ 経緯
+これまでの対応の経緯は以下の通りです。現在は、一括対処、個別対処ともに完了
+しており、通常通りログインいただけます。
+・2026/03/18：v2.0.0アップデートにより一部ログイン不具合が発生
+・2026/03/23：緊急メンテナンスにより根本原因を修正
+・2026/04/03：上記期間中に影響を受けたユーザーへ一括修復対応を実施
+・2026/06/11：関連する問い合わせへの個別対応を完了
+■ 今後のログインに関するお問い合わせについて
+v2.0.0アップデートに起因する本件の不具合については解消済みです。
+本不具合に関するお問い合わせは一律JAIRO Cloud事務局へお願いしておりましたが、
+本ご連絡以降はログインに関してのお問合せについても通常通りML
+（JPCOAR JAIRO Cloud Community ML）へお問い合わせくださいますよう
+お願い申し上げます。
+JPCOAR JAIRO Cloud Community ML
+https://jpcoar.org/support/communitytools/jpcoar-jairo-cloud-community-ml/
+参考資料：
+▼ログイン時によくあるトラブル_第2版.pdf （2026/06/15 参考資料）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E2%97%8F2026%2F06%2F15-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99
+▼新規登録ユーザーによる初回ログインについて.pdf（2026/3/27 参考資料）
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E2%97%8F%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99
+どうぞよろしくお願いいたします。
+■ 参考：これまでのアナウンス一覧
+・該当機関のみ：【重要】JAIRO Cloudログイン不具合の影響に関するご案内（復旧対応）
+　2026年4月3日
+事務局からのお知らせ
+・【第四報】JAIRO Cloudへのログイン不具合対応のためのメンテナンス実施について
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E7%AC%AC%E5%9B%9B%E5%A0%B1%E3%80%91JAIRO-Cloud%E3%81%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E4%B8%8D%E5%85%B7%E5%90%88%E5%AF%BE%E5%BF%9C%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E5%AE%9F%E6%96%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+・【第三報】JAIRO Cloudへのログイン不具合について
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E7%AC%AC%E4%B8%89%E5%A0%B1%E3%80%91JAIRO-Cloud%E3%81%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+・【続報】JAIRO Cloudへのログイン不具合に伴う復旧対応について
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E7%B6%9A%E5%A0%B1%E3%80%91JAIRO-Cloud%E3%81%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AB%E4%BC%B4%E3%81%86%E5%BE%A9%E6%97%A7%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+・【調査中】JAIRO Cloudへのログイン不具合について
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E8%AA%BF%E6%9F%BB%E4%B8%AD%E3%80%91JAIRO-Cloud%E3%81%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+```
 **【解消済】JAIRO Cloud アクセス障害について（2026/6/9～6/10）**
 2026-06-10 15:03 頃
 ```
