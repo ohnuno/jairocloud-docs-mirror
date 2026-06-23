@@ -2,7 +2,7 @@
 title: JAIRO Cloud基本マニュアル | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/"
-fetched_at: "2026-05-26T20:51:11+00:00"
+fetched_at: "2026-06-23T20:58:26+00:00"
 depth: 0
 ---
 # JAIRO Cloud基本マニュアル | オープンアクセスリポジトリ推進協会（JPCOAR）
@@ -14,7 +14,6 @@ JAIRO Cloudの操作について操作別にまとめた基本マニュアルで
 操作でお困りの場合は基本マニュアルを確認するとともに、[JAIRO Cloudサポートポータル](https://jpcoar.org/support/jairo-cloud/portal/)の掲載内容も参照してみてください。
 
 ## 目次
-
 - [基本操作](https://jpcoar.org/support/jairo-cloud/manual/basic-operations/)
 - [ユーザーアカウント管理](https://jpcoar.org/support/jairo-cloud/manual/user-account/)
 - [アイテム個別登録](https://jpcoar.org/support/jairo-cloud/manual/item-registration/)
@@ -30,15 +29,12 @@ JAIRO Cloudの操作について操作別にまとめた基本マニュアルで
 - [用語集](https://jpcoar.org/support/jairo-cloud/manual/glossary/)
 
 ## 基本マニュアル更新履歴
-
 - 2026-03-18　基本マニュアルの更新（v2.0.0対応）を行いました。
 - 2025-11-17　[インデックスの削除](https://jpcoar.org/support/jairo-cloud/manual/index-management/#m5)について、現在削除不可であることと代替策を追記
 - 2025-10-21　JPCOAR Webサイトでの公開を開始
 
 ## お問い合わせ
-
 ### メールでのお問い合わせ
-
 操作に関連した不具合やマニュアルを確認してもわからない点については、JPCOAR JAIRO Cloud Community MLでJAIRO Cloud事務局へお問い合わせください。  
 以下のリンクをクリックすると、お使いのメールソフトを起動して問い合わせ用のフォーマットが入った状態でメールを作成できます。
 
@@ -52,7 +48,6 @@ JAIRO Cloudの操作について操作別にまとめた基本マニュアルで
 ※ 投稿内容は広く共有される可能性がありますので、パスワード等機密情報は投稿しないようご注意ください。
 
 ## 関連ページ
-
 - [JAIRO Cloudサポートポータル](https://jpcoar.org/support/jairo-cloud/portal/)
 - [リリースノート](https://meatwiki.nii.ac.jp/confluence/spaces/JAIROCloudWEKO3/pages/63875565/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88)（JAIRO Cloud（WEKO3）システムアップデート履歴）
 - [JAIRO Cloud事務局からのお知らせ](https://meatwiki.nii.ac.jp/confluence/spaces/JAIROCloudWEKO3/pages/188875864/JAIRO+Cloud%E4%BA%8B%E5%8B%99%E5%B1%80%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B)
