@@ -2,7 +2,7 @@
 title: 2021-03-08 JAIRO Cloud先行移行 制限事項
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43548755/2021-03-08+JAIRO+Cloud"
-fetched_at: "2026-06-25T20:53:17+00:00"
+fetched_at: "2026-06-26T20:28:46+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
   - リリースノート
