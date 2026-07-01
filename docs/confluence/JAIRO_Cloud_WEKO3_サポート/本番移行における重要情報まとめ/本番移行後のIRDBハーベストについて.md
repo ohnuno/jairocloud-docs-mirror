@@ -2,7 +2,7 @@
 title: 本番移行後のIRDBハーベストについて
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549447/IRDB"
-fetched_at: "2026-06-30T20:53:02+00:00"
+fetched_at: "2026-07-01T20:46:25+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
   - 本番移行における重要情報まとめ

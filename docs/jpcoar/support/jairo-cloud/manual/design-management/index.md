@@ -2,7 +2,7 @@
 title: デザイン管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/design-management/"
-fetched_at: "2026-06-30T20:52:45+00:00"
+fetched_at: "2026-07-01T20:46:09+00:00"
 depth: 1
 ---
 # デザイン管理 | オープンアクセスリポジトリ推進協会（JPCOAR）

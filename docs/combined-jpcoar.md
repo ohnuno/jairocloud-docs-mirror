@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (JPCOAR)"
 source: "jpcoar.org/support/jairo-cloud/manual/"
-last_updated: "2026-06-30T20:53:02+00:00"
+last_updated: "2026-07-01T20:46:25+00:00"
 total_pages: 14
 total_announces: 0
 ---
@@ -1517,8 +1517,13 @@ Cloud事務局からのお知らせ](https://meatwiki.nii.ac.jp/confluence/space
 
 # JAIRO Cloud基本マニュアル | オープンアクセスリポジトリ推進協会（JPCOAR）
 _Source: <https://jpcoar.org/support/jairo-cloud/manual/>_
-JAIRO Cloudの操作について操作別にまとめた基本マニュアルです。
+JAIRO Cloudの操作について操作別にまとめた基本マニュアルです。  
 操作でお困りの場合は基本マニュアルを確認するとともに、[JAIRO Cloudサポートポータル](https://jpcoar.org/support/jairo-cloud/portal/)の掲載内容も参照してみてください。
+**JAIRO Cloud基本マニュアルに関するご意見募集について（2026/7/1~7/31）**
+JAIRO Cloud基本マニュアルについて、利用機関のみなさまからご意見を募集中です。（期間：2026年7月1日～7月31日）  
+いただいたご意見は、今後の基本マニュアル改善の検討材料として活用いたします。ぜひ多数のご意見をお寄せいただけますと幸いです。  
+ご意見の投稿方法等、詳しくは7月1日にJPCOAR会員機関宛てに通知したメール「JAIRO Cloud基本マニュアルに関するご意見募集について（通知）」をご確認ください。  
+投稿の際はメールに記載した方法に従ってご投稿いただき、JPCOAR・NII等へ直接ご意見を送付いただかないようお願い申し上げます。
 **目次**
 - [基本操作](https://jpcoar.org/support/jairo-cloud/manual/basic-operations/)
 - [ユーザーアカウント管理](https://jpcoar.org/support/jairo-cloud/manual/user-account/)
