@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-07-07T20:46:42+00:00"
+last_updated: "2026-07-08T20:17:16+00:00"
 total_pages: 39
 total_announces: 6
 ---
@@ -3092,13 +3092,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 5:33 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+  昨日の 午後 4:12 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/07/03 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [ログイン時によくあるトラブル\_第2版.pdf](/wiki/pages/viewpageattachments.action?pageId=43553760&preview=%2F43553760%2F172032265%2F%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf)
   2026/06/15 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODE0ODE0NjEwMDAsIlx0MTcyMDMyMjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-1890659436/6452/8337670125202ed7b89a9752c193d10bc8dac672/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1521233362/6452/8e120dd1cd51a46e0910482eaf1bd2e4aaa5276e/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3108,6 +3108,57 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【解消済】アイテム登録時の「Schema Error」について（2026/7/7～7/8）**
+2026-07-08 15:46 頃
+```
+JAIRO Cloud利用機関各位
+平素よりお世話になっております。
+昨日（7月7日（火））から発生しておりました、JAIRO Cloudのアイテム登録において
+「Schema Error」が表示される事象につきまして、対応が完了いたしましたのでご報告いたします。
+現在は、アイテム登録作業を行っていただけます。
+ご利用機関の皆様には、不便とご迷惑をおかけしましたことをお詫び申し上げます。
+■ 発生日時
+　2026年7月7日（火）11:10頃 ～ 7月8日（水）14:23頃
+■ 事象
+・JAIRO Cloudのアイテム個別登録・編集時に「Item Registration」でメタデータを登録後、
+　「次へ」ボタンをクリックすると「Schema Error」が表示される
+■ 原因
+・2026年7月7日（火）11:10頃に、著者識別子（ID Prefix）の「NRID【非推奨】」が
+　未登録の環境に対して一括追加を行ったところ、WEKO2からの移行環境の多くで登録済み
+　であった「NRID」と重複してしまった。
+■ 対応
+・前述の一括追加を行った環境のうち、Administration > 著者DB管理 > 編集の「著者識別子」
+　タブにおいて「IDスキーマ名」が「NRID」・「NRID【非推奨】」が同時に存在している
+　または、重複している環境に対して、2026年7月7日（火）11:10頃に追加された「NRID
+　【非推奨】」を一括削除した。
+　※一括追加後、「NRID」または「NRID【非推奨】」のどちらかを既に削除・編集されている
+　　場合は対象外です。
+　※一括追加の作業時間とは異なるタイミングで追加された「NRID【非推奨】」は対象外です。
+■ 一括追加作業の背景
+　今回の著者識別子の一括追加作業に対するご説明が不足しており、申し訳ございません。
+　JAIRO Cloudは他システムとの連携が可能ですが、v2.0.0以降、別システムとの連携エラーが
+　発生しておりました。調査の結果、原因はJAIRO Cloud環境にデフォルトの識別子であるはずの
+　「ORCID」が未登録であったためとわかりました。
+　そのため、上記連携エラー解消と、環境ごとの差異を揃えることを目的として、「ORCID」及び、
+　調査時点で不足していると考えられた「NRID【非推奨】」につきまして、登録のない機関への
+　一括追加作業をいたしました。
+　ところが、WEKO2からの移行環境の多くに「NRID」が登録されており、また、
+　システムの内部的に「NRID」と「NRID【非推奨】」は同一のIDとして処理され
+　るため、「NRID【非推奨】」と結果的に重複し、エラーが発生しました。
+■ 参考
+・2026-07-07付 JAIRO Cloud利用機関向けアナウンス
+　JAIRO Cloud事務局からのお知らせ
+　件名：【JAIRO Cloud】著者識別子「ORCID」「NRID【非推奨】」の一括追加のお知らせ
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90JAIRO-Cloud%E3%80%91%E8%91%97%E8%80%85%E8%AD%98%E5%88%A5%E5%AD%90%E3%80%8CORCID%E3%80%8D%E3%80%8CNRID%E3%80%90%E9%9D%9E%E6%8E%A8%E5%A5%A8%E3%80%91%E3%80%8D%E3%81%AE%E4%B8%80%E6%8B%AC%E8%BF%BD%E5%8A%A0%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B
+　
+・JAIRO Cloud基本マニュアル > 著者DB管理 > 10．ID Prefixの削除
+　https://jpcoar.org/support/jairo-cloud/manual/author-db/#m10
+この度は「502 Bad Gateway」や動作遅延が頻発しているところ、更に弊所作業により
+ご迷惑をおかけしてしまったことを重ねてお詫び申し上げます。
+7月8日（水）14:23以降にも引き続き同様の問題が発生する場合は、
+恐れ入りますが本メールにご返信の形でお問い合わせください。
+どうぞよろしくお願いいたします。
+```
 **【調査中】アイテム登録時の「Schema Error」について（2026-07-07～）**
 2026-07-07 17:28 頃
 ```
