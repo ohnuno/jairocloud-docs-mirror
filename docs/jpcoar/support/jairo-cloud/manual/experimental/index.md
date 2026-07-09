@@ -2,7 +2,7 @@
 title: 試験的機能 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/experimental/"
-fetched_at: "2026-07-08T20:17:09+00:00"
+fetched_at: "2026-07-09T20:43:10+00:00"
 depth: 1
 ---
 # 試験的機能 | オープンアクセスリポジトリ推進協会（JPCOAR）
