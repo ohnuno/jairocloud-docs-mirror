@@ -2,7 +2,7 @@
 title: アイテムタイプ管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/itemtype/"
-fetched_at: "2026-07-11T20:00:35+00:00"
+fetched_at: "2026-07-12T20:02:52+00:00"
 depth: 1
 ---
 # アイテムタイプ管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
