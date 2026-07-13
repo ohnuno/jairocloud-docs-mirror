@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-07-12T20:03:14+00:00"
+last_updated: "2026-07-13T20:07:25+00:00"
 total_pages: 39
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-07-07
+- 発生日: 2026-08-13
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 回避策: (1)インポートによる登録・更新 　　アイテム個別登録・編集機能は利用せず、インポートによる登録・更新をご利用ください。 　(2)ファイル形式の変換 　　ファイ
@@ -3092,13 +3092,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/07/08 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+  昨日の 午前 11:29 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/07/03 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [ログイン時によくあるトラブル\_第2版.pdf](/wiki/pages/viewpageattachments.action?pageId=43553760&preview=%2F43553760%2F172032265%2F%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf)
   2026/06/15 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODE0ODE0NjEwMDAsIlx0MTcyMDMyMjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/1476789852/6452/0a80a7434a19952ca489850c9d2bcdc3697b1c2a/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1641085791/6452/ba09e9d8b93f14bdb2c294a89af8cc60209c0ec7/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3108,6 +3108,19 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【JAIRO Cloud】夏季一斉休業に伴う窓口業務の休止について（2026/8/13-16）**
+2026-07-13 10:10 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+国立情報学研究所の夏季一斉休業に伴い、以下の通り、
+JAIRO Cloudの申請・問い合わせ窓口を休止いたします。
+・窓口休止期間：2026年8月13日（木）～ 8月16日（日）
+休止期間前の対応は、8月12日（水）17時まで、
+対応の再開は、8月17日（月）9時からとさせていただきます。
+また、JAIRO Cloudのサービス自体は上記期間中も停止いたしません。
+どうぞよろしくお願いいたします。
+```
 **【解消済】アイテム登録時の「Schema Error」について（2026/7/7～7/8）**
 2026-07-08 15:46 頃
 ```

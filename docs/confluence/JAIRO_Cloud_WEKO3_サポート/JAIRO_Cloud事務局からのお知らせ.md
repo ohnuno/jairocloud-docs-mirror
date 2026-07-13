@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-07-08T20:17:16+00:00"
+fetched_at: "2026-07-13T20:07:25+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,25 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## 【JAIRO Cloud】夏季一斉休業に伴う窓口業務の休止について（2026/8/13-16）
+2026-07-13 10:10 頃
+
+```
+JAIRO Cloud利用機関
+ご担当者　様
+
+国立情報学研究所の夏季一斉休業に伴い、以下の通り、
+JAIRO Cloudの申請・問い合わせ窓口を休止いたします。
+
+・窓口休止期間：2026年8月13日（木）～ 8月16日（日）
+
+休止期間前の対応は、8月12日（水）17時まで、
+対応の再開は、8月17日（月）9時からとさせていただきます。
+また、JAIRO Cloudのサービス自体は上記期間中も停止いたしません。
+
+どうぞよろしくお願いいたします。
+```
 
 ## 【解消済】アイテム登録時の「Schema Error」について（2026/7/7～7/8）
 2026-07-08 15:46 頃
