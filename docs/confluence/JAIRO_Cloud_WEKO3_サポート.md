@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-07-13T20:07:24+00:00"
+fetched_at: "2026-07-14T20:06:11+00:00"
 ancestors:
 via: rest_api
 ---
@@ -161,7 +161,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 ## 最近の更新
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
 
-  昨日の 午前 11:29 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
+  2026/07/13 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
 
   2026/07/03 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
@@ -170,6 +170,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   2026/06/15 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODE0ODE0NjEwMDAsIlx0MTcyMDMyMjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-1641085791/6452/ba09e9d8b93f14bdb2c294a89af8cc60209c0ec7/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/2062180255/6452/80d278b7ede3a71c553a7e9df7f7713a8fde6036/_/images/icons/wait.gif)
 
 ###### スペース内検索

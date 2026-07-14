@@ -2,7 +2,7 @@
 title: 統計機能 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/statistics/"
-fetched_at: "2026-07-13T20:07:14+00:00"
+fetched_at: "2026-07-14T20:06:01+00:00"
 depth: 1
 ---
 # 統計機能 | オープンアクセスリポジトリ推進協会（JPCOAR）
