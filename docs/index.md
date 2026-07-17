@@ -1,6 +1,6 @@
 # JAIROクラウド ドキュメント アーカイブ
 
-_最終更新: 2026-07-16T19:57:46+00:00_
+_最終更新: 2026-07-17T20:00:11+00:00_
 
 このページは自動生成されています。各ページはオリジナルソースのスナップショットです。
 
@@ -9,7 +9,7 @@ _最終更新: 2026-07-16T19:57:46+00:00_
 NotebookLM には以下のファイルを「テキスト」または「ウェブサイト」ソースとして登録してください。
 （リンク一覧ページではなく、全ページ内容を1ファイルに結合したものです）
 
-- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (645 KB)
+- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (648 KB)
 - [combined-jpcoar.md](combined-jpcoar.md) — jpcoar 全文結合 (351 KB)
 
 ---
