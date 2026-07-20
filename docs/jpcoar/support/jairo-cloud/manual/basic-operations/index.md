@@ -2,7 +2,7 @@
 title: 基本操作 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/basic-operations/"
-fetched_at: "2026-07-19T20:03:37+00:00"
+fetched_at: "2026-07-20T20:16:03+00:00"
 depth: 1
 ---
 # 基本操作 | オープンアクセスリポジトリ推進協会（JPCOAR）
