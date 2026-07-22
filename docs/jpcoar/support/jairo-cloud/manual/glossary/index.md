@@ -2,7 +2,7 @@
 title: 用語集 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/glossary/"
-fetched_at: "2026-07-21T20:15:36+00:00"
+fetched_at: "2026-07-22T20:08:15+00:00"
 depth: 1
 ---
 # 用語集 | オープンアクセスリポジトリ推進協会（JPCOAR）
