@@ -2,7 +2,7 @@
 title: ワークフロー管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/workflow/"
-fetched_at: "2026-07-22T20:08:00+00:00"
+fetched_at: "2026-07-23T20:07:59+00:00"
 depth: 1
 ---
 # ワークフロー管理 | オープンアクセスリポジトリ推進協会（JPCOAR）

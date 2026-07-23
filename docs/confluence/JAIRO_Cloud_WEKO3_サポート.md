@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-07-22T20:08:18+00:00"
+fetched_at: "2026-07-23T20:08:17+00:00"
 ancestors:
 via: rest_api
 ---
@@ -170,6 +170,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   2026/06/15 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODE0ODE0NjEwMDAsIlx0MTcyMDMyMjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/1984862161/6452/2eb3ebb2ba1304a71ddf9c3bd708f61f0dd37e91/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1681709447/6452/e7cba25d13a4af5495b98f119a1bbdbee41f7a18/_/images/icons/wait.gif)
 
 ###### スペース内検索
