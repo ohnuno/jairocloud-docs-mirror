@@ -2,7 +2,7 @@
 title: アイテム一括登録（インポート） | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/item-import/"
-fetched_at: "2026-07-25T20:07:23+00:00"
+fetched_at: "2026-07-26T20:04:49+00:00"
 depth: 1
 ---
 # アイテム一括登録（インポート） | オープンアクセスリポジトリ推進協会（JPCOAR）
