@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-07-28T20:11:47+00:00"
+fetched_at: "2026-07-29T20:08:46+00:00"
 ancestors:
 via: rest_api
 ---
@@ -134,6 +134,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [試験的機能](/wiki/spaces/JAIROCloudWEKO3/pages/43549239)
   - [用語集](/wiki/spaces/JAIROCloudWEKO3/pages/43548737)
 - [リリースノート](/wiki/spaces/JAIROCloudWEKO3/pages/43550742)
+  - [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3)
   - [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2)
   - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0)
   - [2025-10-28(v1.0.8b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549594/2025-10-28+v1.0.8b)
@@ -151,9 +152,9 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2020-10-27 JAIRO Cloud第二次βテスト 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud)
 - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)
 - [本番移行における重要情報まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549460)
-  - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
-  - [データ移行ツールに関連する問題点まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549486)
   - [ML問い合わせ対応について](/wiki/spaces/JAIROCloudWEKO3/pages/43549477/ML)
+  - [データ移行ツールに関連する問題点まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549486)
+  - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
 - [オープンアクセス加速化事業関連情報](/wiki/spaces/JAIROCloudWEKO3/pages/43549496)
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
@@ -161,15 +162,15 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 ## 最近の更新
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
 
-  昨日の 午前 9:53 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
+  昨日の 午後 3:19 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3 "JAIROCloud_WEKO3")
 
-  2026/07/03 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [ログイン時によくあるトラブル\_第2版.pdf](/wiki/pages/viewpageattachments.action?pageId=43553760&preview=%2F43553760%2F172032265%2F%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%99%82%E3%81%AB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB_%E7%AC%AC2%E7%89%88.pdf)
+  昨日の 午後 2:55 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=198606849&preview=%2F198606849%2F198606916%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
 
-  2026/06/15 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 2:54 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODE0ODE0NjEwMDAsIlx0MTcyMDMyMjY1IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-1130896799/6452/0c3c6a466a655e7a235cb9134c811084e353c92a/_/images/icons/wait.gif)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzMDQ0NjIwMDAsIlx0MTk4NjA2OTE2IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
+![お待ちください](/wiki/s/-968623047/6452/6e0df41e5de7fc7eefe356a8b3b1e86e20a0e699/_/images/icons/wait.gif)
 
 ###### スペース内検索

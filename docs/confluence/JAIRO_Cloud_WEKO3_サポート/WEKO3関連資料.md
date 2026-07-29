@@ -2,7 +2,7 @@
 title: WEKO3関連資料
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3"
-fetched_at: "2026-07-17T20:00:10+00:00"
+fetched_at: "2026-07-29T20:08:47+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api

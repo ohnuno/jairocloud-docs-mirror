@@ -1,6 +1,6 @@
 # JAIROクラウド ドキュメント アーカイブ
 
-_最終更新: 2026-07-28T20:11:48+00:00_
+_最終更新: 2026-07-29T20:08:47+00:00_
 
 このページは自動生成されています。各ページはオリジナルソースのスナップショットです。
 
@@ -9,7 +9,7 @@ _最終更新: 2026-07-28T20:11:48+00:00_
 NotebookLM には以下のファイルを「テキスト」または「ウェブサイト」ソースとして登録してください。
 （リンク一覧ページではなく、全ページ内容を1ファイルに結合したものです）
 
-- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (649 KB)
+- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (652 KB)
 - [combined-jpcoar.md](combined-jpcoar.md) — jpcoar 全文結合 (351 KB)
 
 ---
@@ -49,6 +49,7 @@ NotebookLM には以下のファイルを「テキスト」または「ウェブ
     - [2025-10-28(v1.0.8b)](confluence/JAIRO_Cloud_WEKO3_サポート/リリースノート/2025-10-28_v1_0_8b_.md)
     - [2026-03-18(v2.0.0)](confluence/JAIRO_Cloud_WEKO3_サポート/リリースノート/2026-03-18_v2_0_0_.md)
     - [2026-05-07(v2.0.2)](confluence/JAIRO_Cloud_WEKO3_サポート/リリースノート/2026-05-07_v2_0_2_.md)
+    - [2026-07-29(v2.0.3)](confluence/JAIRO_Cloud_WEKO3_サポート/リリースノート/2026-07-29_v2_0_3_.md)
   - [リリースノート](confluence/JAIRO_Cloud_WEKO3_サポート/リリースノート.md)
     - [ML問い合わせ対応について](confluence/JAIRO_Cloud_WEKO3_サポート/本番移行における重要情報まとめ/ML問い合わせ対応について.md)
     - [データ移行ツールに関連する問題点まとめ](confluence/JAIRO_Cloud_WEKO3_サポート/本番移行における重要情報まとめ/データ移行ツールに関連する問題点まとめ.md)
