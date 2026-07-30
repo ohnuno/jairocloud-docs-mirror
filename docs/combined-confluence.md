@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-07-29T20:08:47+00:00"
+last_updated: "2026-07-30T20:11:54+00:00"
 total_pages: 40
 total_announces: 6
 ---
@@ -1361,7 +1361,7 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549520/2
 _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
 v0.9.27は欠番となりました。
 # 主な機能追加
-- 詳細検索の日付入力で実在しない日付で検索できないようするバリデーション機能を追加
+- 詳細検索の日付入力で実在しない日付で検索できないようにするバリデーション機能を追加
 - メタデータ自動入力機能でCiNii ResearchのID指定による自動入力機能を追加
 - ハーベスト設定されたインデックスの削除、編集ができないように機能を追加
 - インポート中はアイテムタイプの削除、編集ができないように機能を追加
@@ -1434,20 +1434,21 @@ v0.9.27は欠番となりました。
 - 「Item Link」アクションでアイテム紐付け時に自アイテムの紐付けができてしまう問題を修正
 - アイテムタイプ編集画面にて読み込み中が継続する問題を修正
 - ログイン後、アイテム詳細画面でPublish Statusが表示されなくなる問題を修正
+- インポート中のIndexの削除、変更を抑制するよう修正（2026/3/19追記）
 **最新の課題リスト：**
-- [JC\_WEKO3\_ISSUES\_20241204.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20241204.xlsx?version=1&modificationDate=1733352890000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20241003.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20241003.xlsx?version=1&modificationDate=1727950560000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20240909.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20240909.xlsx?version=1&modificationDate=1725841239000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20240902.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20240902.xlsx?version=1&modificationDate=1725236244000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20240828.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20240828.xlsx?version=1&modificationDate=1724863048000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20240823.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JC_WEKO3_ISSUES_20240823.xlsx?version=2&modificationDate=1724394953000&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20241204.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20241204.xlsx?version=1&modificationDate=1771571156208&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20241003.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20241003.xlsx?version=1&modificationDate=1771571156209&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20240909.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20240909.xlsx?version=1&modificationDate=1771571156209&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20240902.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20240902.xlsx?version=1&modificationDate=1771571156773&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20240828.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20240828.xlsx?version=1&modificationDate=1771571156773&cacheVersion=1&api=v2)
+- [JC\_WEKO3\_ISSUES\_20240823.xlsx](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JC_WEKO3_ISSUES_20240823.xlsx?version=1&modificationDate=1771571156774&cacheVersion=1&api=v2)
 # JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について
 次回アップデートでJPCOARスキーマVersion2.0に本格対応する予定です（本アップデートでは以下の「制限事項」にご注意ください）。
 JPCOARスキーマVersion2.0対応の基本方針やアップデート前後の利用機関の必要作業については、以下のファイルをご覧ください。
-[JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について.pdf](https://nii-auth.atlassian.net/wiki/download/attachments/43549520/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf?version=1&modificationDate=1724293076000&cacheVersion=1&api=v2)
+[JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について.pdf](https://nii-auth.atlassian.net/wiki/download/attachments/104988673/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf?version=1&modificationDate=1771571157125&cacheVersion=1&api=v2)
 利用機関の必要作業の詳細な手順については、次回アップデートにあわせてご案内予定です。
 JPCOARスキーマVersion2.0の概要や特徴については以下をご覧ください。
-<https://doi.org/10.34477/0002000251>  
+<https://doi.org/10.34477/0002000251>   
 <https://doi.org/10.34477/0002000252>
 # 制限事項
 本アップデート後に発生する制限事項及び利用を控えていただきたい機能について案内します。
@@ -1503,10 +1504,10 @@ JPCOAR2.0対応で修正・削除される資源タイプはJPCOAR2.0対応後�
 アイテムタイプに DOI 付与の必須項目（例：'jpcoar:pageStart'、'jpcoar:sourceTitle'）を複数マッピングしている場合、当該アイテムタイプを使用して DOI を付与したアイテムを登録しようとするとメタデータを正常に入力していてもエラーが発生する
 - エラーの例
   - 1）アイテムタイプ「デフォルトアイテムタイプ（フル）」を利用して JaLC DOI を登録する場合
-    - Administration > アイテム管理 > インポートのエラー「PID付与の条件を満たしていません。」  
-      ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_PID%E4%BB%98%E4%B8%8E%E3%81%AE%E6%9D%A1%E4%BB%B6%E3%82%92%E6%BA%80%E3%81%9F%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93.png?version=1&modificationDate=1722853922000&cacheVersion=1&api=v2&width=382&height=76)
-    - アイテム個別登録のエラー「エラー: ['jpcoar:pageStart']のいずれかを設定してください」  
-      ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_%5B%27jpcoarpageStart%27%5D%E3%81%AE%E3%81%84%E3%81%9A%E3%82%8C%E3%81%8B%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84.png?version=1&modificationDate=1722853949000&cacheVersion=1&api=v2&width=558&height=31)
+    - Administration > アイテム管理 > インポートのエラー「PID付与の条件を満たしていません。」
+      ![image-20260730-023446.png](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/image-20260730-023446.png?version=1&modificationDate=1785379601241&cacheVersion=1&api=v2&width=382&height=76)
+    - アイテム個別登録のエラー「エラー: ['jpcoar:pageStart']のいずれかを設定してください」
+      ![image-20260730-023533.png](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/image-20260730-023533.png?version=1&modificationDate=1785379601256&cacheVersion=1&api=v2&width=558&height=31)
   - 2）アイテムタイプ「デフォルトアイテムタイプ（フル）」を利用して Crossref DOI を登録する場合（画像省略）
     - Administration > アイテム管理 > インポートのエラー「PID付与の条件を満たしていません。」
     - アイテム個別登録のエラー「エラー: ['jpcoar:sourceTitle']のいずれかを設定してください」
@@ -1521,9 +1522,9 @@ JPCOAR2.0対応で修正・削除される資源タイプはJPCOAR2.0対応後�
 **４）インポート中の制限**
 インポート機能利用後適切に制限解除が行われないことにより、アイテムタイプやインデックスの設定を保存する際、インポート機能を利用中でなくても以下のエラーが発生し保存を実行できない場合がある
 - Administration > アイテムタイプ管理 > メタデータのエラー「Error: Item type cannot be updated becase import is in progress.」
-  ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_Error%20Item%20type%20cannot%20be%20updated%20becase%20import%20is%20in%20progress.png?version=1&modificationDate=1721985487000&cacheVersion=1&api=v2&width=498&height=149)
+  ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_Error%20Item%20type%20cannot%20be%20updated%20becase%20import%20is%20in%20progress.png?version=2&modificationDate=1785379601263&cacheVersion=1&api=v2&width=498&height=149)
 - Administration > インデックスツリー管理 > ツリー編集のエラー「The index cannot be updated becase import is in progress.」
-  ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_The%20index%20cannot%20be%20updated%20becase%20import%20is%20in%20progress.png?version=1&modificationDate=1721985516000&cacheVersion=1&api=v2&width=880&height=149)
+  ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E3%82%A8%E3%83%A9%E3%83%BC_The%20index%20cannot%20be%20updated%20becase%20import%20is%20in%20progress.png?version=2&modificationDate=1785379601311&cacheVersion=1&api=v2&width=880&height=149)
 Administration > アイテム管理 > インポートを開くと制限が解除され、アイテムタイプやインデックスの設定を保存できるようになります。
 - 影響を受ける機能
   - Administration > アイテムタイプ管理 > メタデータ
@@ -1533,7 +1534,7 @@ Administration > アイテムタイプ管理 > メタデータにて、アップ
 - チェックボックス
 - ラジオボタン
 - リストボックス
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E4%BE%8B_%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9.png?version=1&modificationDate=1724044864000&cacheVersion=1&api=v2&width=313&height=149)
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E4%BE%8B_%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9.png?version=2&modificationDate=1785379601325&cacheVersion=1&api=v2&width=313&height=149)
 - 影響を受ける機能
   - Administration > アイテムタイプ管理 > メタデータ
 **６）static value**
@@ -1543,8 +1544,8 @@ Administration > アイテムタイプ管理 > メタデータにて、アップ
 - 対応：8/26時点で設定されている［static value］の値を、アップデート後対象機関にお知らせします
 static valueとは？   
 ...特定のアイテムタイプのメタデータ項目に固定値を設定する機能（例：項目「出版者」に「○○大学出版会」と設定する）  
-...「＋Add static value」ボタンで入力欄を追加し固定値を設定する  
-　![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/%E4%BE%8B_static%20value.png?version=1&modificationDate=1721985553000&cacheVersion=1&api=v2&width=632&height=150)
+...「＋Add static value」ボタンで入力欄を追加し固定値を設定する
+![image-20260730-023605.png](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549520/image-20260730-023605.png?version=1&modificationDate=1785379601341&cacheVersion=1&api=v2&width=623&height=147)
 **７）著者統合**
 著者統合が正常に完了していない場合も、画面上は正常に完了したように動作してしまう
 著者統合をお控えください。
@@ -1569,19 +1570,18 @@ static valueとは？ 
 2024/6/28付メールアナウンス  
 件名：【重要】インデックスの削除停止のお願い  
 送信先：JAIRO Cloud利用機関
-> この度、インデックスの削除を行った際、不具合が発生することを確認しました。  
-> これに伴い、インデックスの削除をお控えくださいますようお願い申し上げます。
->
-> インデックスを未ログイン状態で閲覧不可としたい場合は、削除ではなく非公開に設定ください。
->
-> ■参考：JAIRO Cloud（WEKO3）基本マニュアル  
-> 　インデックス管理 > 2．インデックスの表示 >［インデックス編集］の項目 > 公開  
-> 　　<https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868521>
->
-> なお、不具合が発生する条件は以下の通りです。  
-> ・インポートによるインデックス変更を行ったことがある  
-> ・アイテムのバージョンを変更し、かつ、  
-> 　インポートまたはアイテム個別編集によるインデックス変更を行ったことがある
+```
+この度、インデックスの削除を行った際、不具合が発生することを確認しました。
+これに伴い、インデックスの削除をお控えくださいますようお願い申し上げます。
+インデックスを未ログイン状態で閲覧不可としたい場合は、削除ではなく非公開に設定ください。
+■参考：JAIRO Cloud（WEKO3）基本マニュアル
+　インデックス管理 > 2．インデックスの表示 >［インデックス編集］の項目 > 公開
+　　https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868521﻿
+なお、不具合が発生する条件は以下の通りです。
+・インポートによるインデックス変更を行ったことがある
+・アイテムのバージョンを変更し、かつ、
+　インポートまたはアイテム個別編集によるインデックス変更を行ったことがある
+```
 - 影響を受ける機能
   - Administration > インデックスツリー管理 > ツリー編集
   - Administration > アイテム編集 > 一括削除（Administrationメニューから非表示になる）
@@ -1644,14 +1644,13 @@ v1.0.7で発生した不具合は調査完了次第課題リストに掲載し�
 # 2025-02-25(v1.0.7b)
 _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b>_
 _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
-# 
 # 主な機能追加
-- ユーザがアクティビティロックを強制的に解除できる機能を追加しました。　→[補足](#id-2025-02-25(v1.0.7b)-補足_2）アクティビティロックの強制解除)
+- ユーザがアクティビティロックを強制的に解除できる機能を追加しました。　→[補足](#)
 # 主な機能変更
 - メタデータ入力時の著者識別子URL、著者所属識別子URL等の修正を可能にしました。
-- 移行機関とのデータ互換性を向上させました。→[補足](#id-2025-02-25(v1.0.7b)-4)データ互換性向上の具体的内容)
+- 移行機関とのデータ互換性を向上させました。→[補足](#)
 - reindex対象としてitemtype idを指定できるようになりました。
-- 作成者識別子・所属機関識別子の語彙を追加　→[補足](#id-2025-02-25(v1.0.7b)-補足_3）Admin>著者DB管理>編集)
+- 作成者識別子・所属機関識別子の語彙を追加　→[補足](#)
 - フィードバックメールの送信タイミングを「毎月1日9時（JST）の一斉送信」から「毎月1日9時（JST）より順次送信」に変更（場合によっては、フィードバックメールの送信が2日以降となる）
 # 主な機能修正
 - 一つ目のインデックスのコメントで同一階層のインデックスのコメントが上書きされる問題を修正しました。
@@ -1659,21 +1658,22 @@ _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
 - 複数タブでワークフローを開くとロックする機能が動作していない問題を修正しました。
 - 学位論文のバリデーションチェックでStartPageが含まれている問題を修正しました。
 - Shibbolethリダイレクト時のエンコード範囲に問題があった点を修正しました。
-- アイテムタイプ修正ツールの問題の修正および状態を過去に戻すツールを追加しました。　→[補足](#id-2025-02-25(v1.0.7b)-補足_1）アイテムタイプ)
+- アイテムタイプ修正ツールの問題の修正および状態を過去に戻すツールを追加しました。　→[補足](#)
 - renderとformの不整合を修正するデータ修正ツール（itemtype\_fix\_form\_title.py）のバグを修正しました。
 - アイテムタイトルのAllow Multipleにチェックが入っていない場合にアイテムインポートでエラーとなるバグを修正しました。
 - サムネイル付きのアイテムインポートがエラーとなるバグを修正しました。
 - 作成者識別子をhideにした場合にアイテム詳細画面がエラーで表示できなくなるバグを修正しました。
 - 増加していたデータベースへのクエリ数を低減させました。
+- ListRecordsのレスポンスに時間がかかる場合に、IRDBによるハーベストに失敗する問題を修正（2026/3/18追記）
 **最新の課題リスト：**
-- [JC\_WEKO3\_ISSUES\_20250214.xlsx](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250214.xlsx?version=1&modificationDate=1739498969000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20250303.xlsx](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250303.xlsx?version=1&modificationDate=1740912510000&cacheVersion=1&api=v2)
-- [JC\_WEKO3\_ISSUES\_20250307.xlsx](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250307.xlsx?version=3&modificationDate=1741281960000&cacheVersion=1&api=v2)
+- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/JC_WEKO3_ISSUES_20250214.xlsx?version=2&modificationDate=1785379786920&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250214.xlsx?version=2&modificationDate=1785379786920&cacheVersion=1&api=v2)
+- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/JC_WEKO3_ISSUES_20250303.xlsx?version=2&modificationDate=1785379786965&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250303.xlsx?version=2&modificationDate=1785379786965&cacheVersion=1&api=v2)
+- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/JC_WEKO3_ISSUES_20250307.xlsx?version=4&modificationDate=1785379786983&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/43549528/JC_WEKO3_ISSUES_20250307.xlsx?version=4&modificationDate=1785379786983&cacheVersion=1&api=v2)
 # 制限事項
 本アップデート後に発生する制限事項及び利用を控えていただきたい機能についてご案内します。
 **1）所蔵機関＞所蔵機関識別子の値**
 アップデート前に要素「所蔵機関」の子要素「所蔵機関識別子」の値をアイテムに登録していた場合、アイテム詳細画面及びアイテム編集画面での表示やエクスポートやOAI-PMHでの出力が実施できなくなります。
-- 影響を受ける機能  
+- 影響を受ける機能
   - アイテム詳細画面
   - アイテム個別登録・編集
   - アイテムエクスポート
@@ -1682,14 +1682,14 @@ _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
 値の入力は可能です。今後システム側での復旧を予定していますが、もしお急ぎの場合は値を再入力いただいても構いません。
 **2）アイテムエクスポート**
 アイテムエクスポートしたTSVファイルの一部「#ID」の先頭が「None.」と表示される場合があります。
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/jc-niirdc-mig-rc-c_itemtypes_2.png?version=1&modificationDate=1738660875000&cacheVersion=1&api=v2&width=800&height=65)
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/jc-niirdc-mig-rc-c_itemtypes_2.png?version=2&modificationDate=1785379786997&cacheVersion=1&api=v2&width=800&height=65)
 - 影響を受ける機能
   - アイテムエクスポート
 Administration > アイテムタイプ管理 > メタデータにてエクスポートしたファイルのアイテムタイプを空更新し、改めてアイテムエクスポートすると解消します。
 ※一度アイテムタイプを空更新すれば当該アイテムタイプに紐づくアイテムは問題を回避できるため、よくアイテム登録に利用するアイテムタイプだけ事前に空更新をしておくことも有効です。
 **3）助成情報＞助成機関識別子タイプ**
 アイテム詳細画面、アイテム登録・編集画面、及び、アイテムエクスポートにて、「助成情報」の属性「助成機関識別子タイプ」の項目名が「助成機関識別子タイプ」ではなく「識別子タイプ」と表示されます。
-- 影響を受ける機能  
+- 影響を受ける機能
   - アイテム詳細画面
   - アイテム個別登録・編集
   - アイテムエクスポート
@@ -1704,28 +1704,27 @@ Administration > アイテムタイプ管理 > メタデータにてエクスポ
 アイテムタイプの属性のオプションとは？   
 ...Administration > アイテムタイプ管理 > メタデータ「属性」下に表示される以下のオプション「Required」「Show List」「Specify Newline」「Hide」「Non Display on Detail」  
 ...画面例（赤枠内が対象）
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E5%B1%9E%E6%80%A7%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3_%E4%BE%8B.png?version=2&modificationDate=1733108315000&cacheVersion=1&api=v2&width=555&height=250)
-関連
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E5%B1%9E%E6%80%A7%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3_%E4%BE%8B.png?version=3&modificationDate=1785379787014&cacheVersion=1&api=v2&width=555&height=249)
+**関連**
 2024/9/20付メールアナウンス  
 件名：【重要】JAIRO Cloudアップデートに伴う不具合のお知らせ（2024-09-20）  
 送信先：JAIRO Cloud利用機関
-> この度、アイテムタイプの属性のオプションがアップデート後にクリアされていることを確認しました。
->
-> （対象）  
-> 　Administration > アイテムタイプ管理 > メタデータ  
-> 　「属性」下に表示される以下のオプション  
-> 　- Required  
-> 　- Show List  
-> 　- Specify Newline  
-> 　- Hide  
-> 　- Non Display on Detail
->
-> 　■参考：JAIRO Cloud（WEKO3）基本マニュアル > アイテムタイプ管理  
-> 　　<https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868523>
->
-> 現在、属性のオプションをアップデート前（9/9）の状態に戻す修正作業を検討しております。  
-> お急ぎの場合は、修正作業を待たずに属性のオプションを設定いただいて問題ございませんが、  
-> 修正作業後、属性のオプションはアップデート前の状態に戻る想定ですのでご承知おきいただけますと幸いです。
+```
+この度、アイテムタイプの属性のオプションがアップデート後にクリアされていることを確認しました。
+（対象）
+　Administration > アイテムタイプ管理 > メタデータ
+　「属性」下に表示される以下のオプション
+　- Required
+　- Show List
+　- Specify Newline
+　- Hide
+　- Non Display on Detail
+　■参考：JAIRO Cloud（WEKO3）基本マニュアル > アイテムタイプ管理
+　　https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868523﻿
+現在、属性のオプションをアップデート前（9/9）の状態に戻す修正作業を検討しております。
+お急ぎの場合は、修正作業を待たずに属性のオプションを設定いただいて問題ございませんが、
+修正作業後、属性のオプションはアップデート前の状態に戻る想定ですのでご承知おきいただけますと幸いです。
+```
 - 影響を受ける機能
   - Administration > アイテムタイプ管理 > メタデータ
   - アイテム個別登録・編集（「Required」にチェックを入れていた場合）
@@ -1741,49 +1740,43 @@ Administration > アイテムタイプ管理 > メタデータにてエクスポ
 メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の選択肢入力欄とは？   
 ...Administration > アイテムタイプ管理 > メタデータ、メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の属性(子)「値」  
 ...画面例（赤枠内が対象）
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E9%81%B8%E6%8A%9E%E8%82%A2%E5%85%A5%E5%8A%9B%E6%AC%84_%E4%BE%8B.png?version=1&modificationDate=1733108027000&cacheVersion=1&api=v2&width=515&height=250)
-関連
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E9%81%B8%E6%8A%9E%E8%82%A2%E5%85%A5%E5%8A%9B%E6%AC%84_%E4%BE%8B.png?version=2&modificationDate=1785379787031&cacheVersion=1&api=v2&width=515&height=249)
+**関連**
 2024/9/26付メールアナウンス  
 件名：【重要】JAIRO Cloudアップデートに伴う不具合のお知らせ（2024-09-26）  
 送信先：JAIRO Cloud利用機関
-> この度、アイテムタイプのメタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」  
-> の選択肢入力欄がアップデート後にクリアされていることを確認しました。  
-> 本件の対象、影響、制限事項は以下の通りです。
->
-> （対象）  
-> 　Administration > アイテムタイプ管理 > メタデータ  
-> 　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の  
-> 　属性(子)「値」に入力されていた選択肢がクリアされた。
->
-> 　■参考：JAIRO Cloud（WEKO3）基本マニュアル > アイテムタイプ管理  
-> 　　<https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868523>
->
-> （影響）  
-> 　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」を使用したアイテムタイプ  
-> 　を用いたアイテムの新規登録・編集を行う際、以下が発生します。
->
-> 　■アップデート後に新規で上記メタデータ属性を用いたメタデータ項目に値を設定する場合  
-> 　　→選択肢を選択できない  
-> 　■アップデート前に上記メタデータ属性を用いたメタデータ項目に値が設定されていた場合  
-> 　　・当該メタデータ項目を編集する→アップデート前に設定されていた値が消える  
-> 　　・当該メタデータ項目を編集しない→エラー発生
->
-> （制限事項）  
-> 　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」を使用した  
-> 　アイテムの新規登録・編集はお控えください。
->
-> 現在、9/20付「【重要】JAIRO Cloudアップデートに伴う不具合のお知らせ（2024-09-20）」  
-> でご案内しました「属性のオプションをアップデート前（9/9）の状態に戻す修正作業」と同様に  
-> 選択肢入力欄をアップデート前（9/9）の状態に戻す修正作業を検討しております。  
-> 修正の見通しが立ち次第ご連絡いたしますので、アナウンスをお待ちください。
->
-> なお、関連する既知の案件として、リリースノート（v1.0.7）の制限事項に記載の通り、  
-> メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の値を新規で保存できない問題を確認しております。  
-> 重ねてご不便をおかけし申し訳ございませんが、ご承知おきいただけますと幸いです。
->
-> 　■参考：リリースノート > 2024-09-09予定(v1.0.7)  
-> 　　制限事項 > ５）アイテムタイプのチェックボックス、ラジオボタン、リストボックス  
-> 　　<https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=157190597>
+```
+この度、アイテムタイプのメタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」
+の選択肢入力欄がアップデート後にクリアされていることを確認しました。
+本件の対象、影響、制限事項は以下の通りです。
+（対象）
+　Administration > アイテムタイプ管理 > メタデータ
+　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の
+　属性(子)「値」に入力されていた選択肢がクリアされた。
+　■参考：JAIRO Cloud（WEKO3）基本マニュアル > アイテムタイプ管理
+　　https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=63868523﻿
+（影響）
+　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」を使用したアイテムタイプ
+　を用いたアイテムの新規登録・編集を行う際、以下が発生します。
+　■アップデート後に新規で上記メタデータ属性を用いたメタデータ項目に値を設定する場合
+　　→選択肢を選択できない
+　■アップデート前に上記メタデータ属性を用いたメタデータ項目に値が設定されていた場合
+　　・当該メタデータ項目を編集する→アップデート前に設定されていた値が消える
+　　・当該メタデータ項目を編集しない→エラー発生
+（制限事項）
+　メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」を使用した
+　アイテムの新規登録・編集はお控えください。
+現在、9/20付「【重要】JAIRO Cloudアップデートに伴う不具合のお知らせ（2024-09-20）」
+でご案内しました「属性のオプションをアップデート前（9/9）の状態に戻す修正作業」と同様に
+選択肢入力欄をアップデート前（9/9）の状態に戻す修正作業を検討しております。
+修正の見通しが立ち次第ご連絡いたしますので、アナウンスをお待ちください。
+なお、関連する既知の案件として、リリースノート（v1.0.7）の制限事項に記載の通り、
+メタデータ属性「チェックボックス」「ラジオボタン」「リストボックス」の値を新規で保存できない問題を確認しております。
+重ねてご不便をおかけし申し訳ございませんが、ご承知おきいただけますと幸いです。
+　■参考：リリースノート > 2024-09-09予定(v1.0.7)
+　　制限事項 > ５）アイテムタイプのチェックボックス、ラジオボタン、リストボックス
+　　https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=157190597﻿
+```
 - 影響を受ける機能
   - Administration > アイテムタイプ管理 > メタデータ
   - アイテム個別登録・編集
@@ -1793,10 +1786,10 @@ Administration > アイテムタイプ管理 > メタデータにてエクスポ
 問題：アイテム個別登録・編集時に「他のアクティビティを既に開いています」のエラーがでてアイテム編集ができない（他アクティビティを見つけられなかった場合、解消方法がない）
 修正内容：UIからアクティビティを強制的に解除できる機能を追加
 - エラーが発生した際に「Force Unlock」という赤いボタンが表示される
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A8%E3%83%A9%E3%83%BC_%E6%A8%A9%E9%99%90%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99.png?version=1&modificationDate=1738664686000&cacheVersion=1&api=v2&width=500&height=88)
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A8%E3%83%A9%E3%83%BC_%E6%A8%A9%E9%99%90%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99.png?version=2&modificationDate=1785379787052&cacheVersion=1&api=v2&width=500&height=88)
 - 「Force Unlock」ボタンをクリックすると以下のポップアップが表示され「OK」ボタンをクリックすると、アクティビティを開始できるようになる
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF_%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97.png?version=1&modificationDate=1738664694000&cacheVersion=1&api=v2&width=400&height=136)
-- 影響を受ける機能  
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF_%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97.png?version=2&modificationDate=1785379787068&cacheVersion=1&api=v2&width=400&height=136)
+- 影響を受ける機能
   - アイテム個別登録・編集
 - 関連：課題リスト#373「追加：ユーザがアクティビティロックを強制的に解除できる機能を追加」
 **3）Admin > 著者DB管理 > 編集**
@@ -1811,7 +1804,7 @@ Admin > 著者DB管理 > 編集の「ID Prefix」に以下の語彙が追加さ�
 - 影響を受ける機能
   - アイテム個別登録・編集
 **3-2）「Affiliation ID」への追加**
-- 関連：JAIRO Cloud（WEKO3）サポート > JPCOARスキーマVersion2.0対応に関連する問題まとめ  
+- 関連：JAIRO Cloud（WEKO3）サポート > JPCOARスキーマVersion2.0対応に関連する問題まとめ
   - [所属機関識別子（nameIdentifierScheme）の追加語彙「ROR」](https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=180191387#JPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E5%95%8F%E9%A1%8C%E3%81%BE%E3%81%A8%E3%82%81-%E6%89%80%E5%B1%9E%E6%A9%9F%E9%96%A2%E8%AD%98%E5%88%A5%E5%AD%90%EF%BC%88nameIdentifierScheme%EF%BC%89%E3%81%AE%E8%BF%BD%E5%8A%A0%E8%AA%9E%E5%BD%99%E3%80%8CROR%E3%80%8D)
 Admin > 著者DB管理 > 編集の「Affiliation ID」に以下の語彙が追加されました。
 追加対象：「ROR」  
@@ -1826,7 +1819,7 @@ Admin > 著者DB管理 > 編集の「Affiliation ID」に以下の語彙が追�
 | --- | --- |
 | .metadata.**item\_30002\_title0**[0].subitem\_title | .metadata.**item\_30002\_title0**[0].subitem\_title\_language |
 ※アイテムタイプのキー値とは、例えばエクスポートファイルの２行目に表示される文字列です。上記の例「.metadata.item\_30002\_title0[0].subitem\_title」及び「.metadata.item\_30002\_title0[0].subitem\_title\_language」は以下キャプチャ（デフォルトアイテムタイプ（フル）のエクスポートファイル）の赤枠と一致します。
-![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png?version=1&modificationDate=1739425756000&cacheVersion=1&api=v2&width=1000&height=49)
+![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549528/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png?version=2&modificationDate=1785379787082&cacheVersion=1&api=v2&width=1000&height=49)
 影響のあるアイテムタイプのキー値の置換ルールについて以下に説明します。
 置換対象となるアイテムタイプはオリジナルのものが対象となります。コピーした場合のコピー先のアイテムタイプは置換対象となりません。
 **置換ルール**
@@ -2111,7 +2104,7 @@ IRDBハーベストは、v2.0.0アップデート後に改めてJPCOARスキー�
 v1.0.7、v1.0.7bで案内した制限事項は、一部を除いて本アップデートにて解消しました。
 - 関連
   - [リリースノート > 2024-09-09(v1.0.7) > 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43549520/2024-09-09+v1.0.7#%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85)
-  - [リリースノート > 2025-02-25(v1.0.7b) > 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#id-2025-02-25(v1.0.7b)-%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85)
+  - [リリースノート > 2025-02-25(v1.0.7b) > 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85)
 以下については仕様変更とし、解消の対象外となります。
 **5-1）JPCOAR2.0対応で変更・削除される資源タイプ**
 制限事項の内容
@@ -3114,14 +3107,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
-- [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 3:19 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3 "JAIROCloud_WEKO3")
-  昨日の 午後 2:55 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=198606849&preview=%2F198606849%2F198606916%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
-  昨日の 午後 2:54 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzMDQ0NjIwMDAsIlx0MTk4NjA2OTE2IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-968623047/6452/6e0df41e5de7fc7eefe356a8b3b1e86e20a0e699/_/images/icons/wait.gif)
+- [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
+  昨日の 午前 11:49 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [アイテムタイプのキー\_例.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557579%2F%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png)
+  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [アンロック\_ポップアップ.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557575%2F%E3%82%A2%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF_%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97.png)
+  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODcwMDAsIlx0NDM1NTc1NzUgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNhIl0%3D_h_W10%3D)
+![お待ちください](/wiki/s/-662460767/6452/bf947b4ad71a5f286c7edecc1869e613624ba99f/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3131,6 +3124,26 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【2026/8/4(火)・8/5(水)】JAIRO Cloudメンテナンスのお知らせ**
+2026-07-30 10:03 頃
+```
+JAIRO Cloud
+ご担当者様
+いつもお世話になっております。
+JAIRO Cloud事務局です。
+JAIRO Cloudのユーザー管理システムで利用しているWAF（Web
+Application Firewall）のサーバメンテナンスを下記の通り行います。
+作業中はご不便をおかけし大変申し訳ございませんが、
+何卒ご理解、ご協力をいただけますよう、お願い申し上げます。
+・作業日時：
+　　2026/8/4（火）17:45-20:00（予定）
+　　2026/8/5（水）17:45-20:00（予定）
+・作業内容：JAIRO Cloud UMS WAFサーバのメンテナンス
+・影響範囲：各日18:00頃、ユーザー管理システムについてサービスの瞬断が発生いたします。
+・お願い：
+　　上記作業日時の間はJAIRO Cloudへのログイン、及びユーザー登録・削除をお控えください。
+　　なお、作業終了のご連絡は行いません。
+```
 **（終了しました）【2026年7月29日（水）0:00～14:40】JAIRO Cloud緊急アップデート（v2.0.3）のお知らせ（ログイン停止）**
 2026-07-29 15:13 頃
 ```
@@ -5525,7 +5538,7 @@ _階層: JAIRO Cloud（WEKO3）サポート_
   - JPCOARv2\_JaLC\_Guideline\_appendix\_ver1\_1.pdf
 なお、資源タイプを「journal」に戻す作業は各利用機関での実施をお願いいたします。
 # 作成者識別子・寄与者識別子（nameIdentifierScheme）の修正語彙「e-Rad\_Researcher」
-**対応内容：v1.0.7bアップデートにて「e-Rad\_Researcher」を一括追加しました（参考：**[**3-1）「ID Prefix」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#id-2025-02-25(v1.0.7b)-補足_3-1）「IDPrefix」への追加)**）。**
+**対応内容：v1.0.7bアップデートにて「e-Rad\_Researcher」を一括追加しました（参考：**[**3-1）「ID Prefix」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#補足_3-1）「IDPrefix」への追加)**）。**
 **概要**
 - JPCOARスキーマVersion2.0で作成者識別子の語彙「e-Rad」が「e-Rad\_Researcher」に変更された。JAIRO Cloudでは左記変更に未対応のため、Administration > 著者DB管理 > 編集、「ID Prefix」タブの画面に「IDスキーマ名」が「e-Rad\_Researcher」の作成者識別子がない。
 ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549560/IDPrefix.png?version=6&modificationDate=1771581900831&cacheVersion=1&api=v2&width=739&height=249)
@@ -5547,7 +5560,7 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 作成者識別子の語彙「e-Rad\_Researcher」の一括追加を検討しています。
 なお、Administration > 著者DB管理 > 編集、「ID Prefix」タブにて独自に「e-Rad\_Researcher」を追加している場合は一括追加の対象外としますので、一括追加の前に削除等実施いただく必要はございません。
 # 所属機関識別子（nameIdentifierScheme）の追加語彙「ROR」
-**対応内容：v1.0.7bアップデートにて「ROR」を一括追加しました（参考：**[**3-2）「Affiliation ID」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#id-2025-02-25(v1.0.7b)-補足_3-2）「AffiliationID」への追加)**）。**
+**対応内容：v1.0.7bアップデートにて「ROR」を一括追加しました（参考：**[**3-2）「Affiliation ID」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#補足_3-2）「AffiliationID」への追加)**）。**
 **概要**
 - JPCOARスキーマVersion2.0で追加された所属機関識別子の語彙「ROR」に未対応のため、 Administration > 著者DB管理 > 編集、「Affiliation ID」タブの「IDスキーマ名」の選択肢に「ROR」がない。
 ![](https://nii-auth.atlassian.net/wiki/download/thumbnails/43549560/AffiliationID.png?version=3&modificationDate=1771581900948&cacheVersion=1&api=v2&width=641&height=249)

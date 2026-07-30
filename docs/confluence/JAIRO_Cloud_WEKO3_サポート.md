@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-07-29T20:08:46+00:00"
+fetched_at: "2026-07-30T20:11:53+00:00"
 ancestors:
 via: rest_api
 ---
@@ -160,17 +160,17 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 
 ## 最近の更新
-- [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
+- [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
 
-  昨日の 午後 3:19 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3 "JAIROCloud_WEKO3")
+  昨日の 午前 11:49 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [アイテムタイプのキー\_例.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557579%2F%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png)
 
-  昨日の 午後 2:55 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=198606849&preview=%2F198606849%2F198606916%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
+  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [アンロック\_ポップアップ.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557575%2F%E3%82%A2%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF_%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97.png)
 
-  昨日の 午後 2:54 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzMDQ0NjIwMDAsIlx0MTk4NjA2OTE2IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-968623047/6452/6e0df41e5de7fc7eefe356a8b3b1e86e20a0e699/_/images/icons/wait.gif)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODcwMDAsIlx0NDM1NTc1NzUgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNhIl0%3D_h_W10%3D)
+![お待ちください](/wiki/s/-662460767/6452/bf947b4ad71a5f286c7edecc1869e613624ba99f/_/images/icons/wait.gif)
 
 ###### スペース内検索

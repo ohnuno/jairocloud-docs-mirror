@@ -2,7 +2,7 @@
 title: JPCOARスキーマVersion2.0対応に関連する問題まとめ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0"
-fetched_at: "2026-07-29T20:08:47+00:00"
+fetched_at: "2026-07-30T20:11:54+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -59,7 +59,7 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 なお、資源タイプを「journal」に戻す作業は各利用機関での実施をお願いいたします。
 
 # 作成者識別子・寄与者識別子（nameIdentifierScheme）の修正語彙「e-Rad\_Researcher」
-**対応内容：v1.0.7bアップデートにて「e-Rad\_Researcher」を一括追加しました（参考：**[**3-1）「ID Prefix」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#id-2025-02-25(v1.0.7b)-補足_3-1）「IDPrefix」への追加)**）。**
+**対応内容：v1.0.7bアップデートにて「e-Rad\_Researcher」を一括追加しました（参考：**[**3-1）「ID Prefix」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#補足_3-1）「IDPrefix」への追加)**）。**
 
 **概要**
 
@@ -97,7 +97,7 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 なお、Administration > 著者DB管理 > 編集、「ID Prefix」タブにて独自に「e-Rad\_Researcher」を追加している場合は一括追加の対象外としますので、一括追加の前に削除等実施いただく必要はございません。
 
 # 所属機関識別子（nameIdentifierScheme）の追加語彙「ROR」
-**対応内容：v1.0.7bアップデートにて「ROR」を一括追加しました（参考：**[**3-2）「Affiliation ID」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#id-2025-02-25(v1.0.7b)-補足_3-2）「AffiliationID」への追加)**）。**
+**対応内容：v1.0.7bアップデートにて「ROR」を一括追加しました（参考：**[**3-2）「Affiliation ID」への追加**](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b#補足_3-2）「AffiliationID」への追加)**）。**
 
 **概要**
 
