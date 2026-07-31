@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-07-30T20:11:54+00:00"
+last_updated: "2026-07-31T20:15:28+00:00"
 total_pages: 40
 total_announces: 6
 ---
@@ -3108,13 +3108,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
-  昨日の 午前 11:49 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  2026/07/30 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [アイテムタイプのキー\_例.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557579%2F%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png)
-  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  2026/07/30 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [アンロック\_ポップアップ.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557575%2F%E3%82%A2%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF_%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97.png)
-  昨日の 午前 11:49 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  2026/07/30 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODcwMDAsIlx0NDM1NTc1NzUgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNhIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-662460767/6452/bf947b4ad71a5f286c7edecc1869e613624ba99f/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/2121389285/6452/0f4f3cd73a369887feee2d096ce1302b66176ac2/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
