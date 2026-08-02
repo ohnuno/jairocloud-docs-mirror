@@ -2,7 +2,7 @@
 title: インデックス管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/index-management/"
-fetched_at: "2026-08-01T20:06:19+00:00"
+fetched_at: "2026-08-02T20:06:33+00:00"
 depth: 1
 ---
 # インデックス管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
