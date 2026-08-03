@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (JPCOAR)"
 source: "jpcoar.org/support/jairo-cloud/manual/"
-last_updated: "2026-08-02T20:06:55+00:00"
+last_updated: "2026-08-03T20:21:10+00:00"
 total_pages: 14
 total_announces: 0
 ---
