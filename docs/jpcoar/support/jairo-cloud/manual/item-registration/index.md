@@ -2,7 +2,7 @@
 title: アイテム個別登録 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/item-registration/"
-fetched_at: "2026-08-04T20:19:05+00:00"
+fetched_at: "2026-08-05T20:20:50+00:00"
 depth: 1
 ---
 # アイテム個別登録 | オープンアクセスリポジトリ推進協会（JPCOAR）
