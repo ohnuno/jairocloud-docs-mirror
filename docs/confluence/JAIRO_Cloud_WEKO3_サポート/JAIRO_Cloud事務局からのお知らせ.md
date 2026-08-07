@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-07-30T20:11:54+00:00"
+fetched_at: "2026-08-07T19:45:43+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,34 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## （JAIRO Cloud）電気設備の法定点検に伴うメール送信の一時停止について（2026/8/21～8/24）
+2026-08-07 09:55 頃
+
+```
+JAIRO Cloud
+ご担当者様
+
+いつもお世話になっております。
+JAIRO Cloud事務局です。
+
+電気設備の法定点検に伴い、下記の通り、JAIRO Cloudの
+システムによるメール送信が一時的に停止いたします。
+
+ご不便をおかけいたしますが、何卒ご理解、ご協力をいただけますよう、
+お願い申し上げます。
+
+期間：
+8月21日(金)12:00頃～8月24日(月)17:00頃（予定）
+
+期間中停止するメールの例：
+・ユーザー登録のご案内メール
+・査読・承認の通知メール
+・任意に送信する定型レポートメール
+
+※JAIRO Cloudのサービス自体、および JPCOAR JAIRO Cloud Community ML
+　（JAIRO Cloudのユーザーサポート・相互協力用）は停止いたしません。
+```
 
 ## 【2026/8/4(火)・8/5(水)】JAIRO Cloudメンテナンスのお知らせ
 2026-07-30 10:03 頃

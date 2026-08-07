@@ -2,7 +2,7 @@
 title: JPCOARスキーマVersion2.0対応に関連する問題まとめ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0"
-fetched_at: "2026-07-30T20:11:54+00:00"
+fetched_at: "2026-08-07T19:45:43+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api

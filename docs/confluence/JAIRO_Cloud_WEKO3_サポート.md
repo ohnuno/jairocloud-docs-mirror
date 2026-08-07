@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-08-07T00:36:44+00:00"
+fetched_at: "2026-08-07T19:45:42+00:00"
 ancestors:
 via: rest_api
 ---
@@ -160,17 +160,17 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 
 ## 最近の更新
+- [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
+
+  昨日の 午後 1:40 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
 
   2026/08/04 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
 
   2026/07/30 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
-- [アイテムタイプのキー\_例.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557579%2F%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png)
 
-  2026/07/30 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
-
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODcwMDAsIlx0NDM1NTc1NzkgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNhIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/1857115665/6452/ddd4a2ee4f86e634e92fdbff9838d0d2422eceb8/_/images/icons/wait.gif)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODgwMDAsIlx0NDM1NDk1MjggSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
+![お待ちください](/wiki/s/-543721071/6452/b08580ea0874745d31b793269f47b6eab659c1ff/_/images/icons/wait.gif)
 
 ###### スペース内検索
