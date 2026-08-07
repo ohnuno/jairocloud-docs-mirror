@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-08-05T20:21:22+00:00"
+last_updated: "2026-08-07T00:36:45+00:00"
 total_pages: 40
 total_announces: 6
 ---
@@ -3114,7 +3114,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [アイテムタイプのキー\_例.png](/wiki/pages/viewpageattachments.action?pageId=43549528&preview=%2F43549528%2F43557579%2F%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E3%82%AD%E3%83%BC_%E4%BE%8B.png)
   2026/07/30 • ファイル添付者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODcwMDAsIlx0NDM1NTc1NzkgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNhIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-994983791/6452/2c04364b3385675a67ca328a0600d23db5216db7/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/1857115665/6452/ddd4a2ee4f86e634e92fdbff9838d0d2422eceb8/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
