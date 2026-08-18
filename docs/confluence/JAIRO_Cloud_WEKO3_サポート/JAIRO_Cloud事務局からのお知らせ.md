@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-08-12T19:57:21+00:00"
+fetched_at: "2026-08-18T19:22:04+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,24 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## （終了しました）【2026年8月18日（火）9:30～17:00】JAIRO Cloudメンテナンスのお知らせ（サービス停止）
+2026-08-18 17:03 頃
+
+```
+JAIRO Cloud利用機関各位
+
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+
+標記の件につきまして、以下の通りJAIRO Cloudシステムメンテナンスが完了しました。
+
+　2026年8月18日（火）9:30～17:00
+
+以降は通常通りにご利用いただけます。
+
+どうぞよろしくお願いいたします。
+```
 
 ## （リマインド）【2026年8月18日（火）9:30～18:00】JAIRO Cloudメンテナンスのお知らせ（サービス停止）
 2026-08-12 09:40 頃
