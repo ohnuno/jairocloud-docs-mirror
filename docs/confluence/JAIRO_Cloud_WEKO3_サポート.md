@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-08-25T19:24:46+00:00"
+fetched_at: "2026-08-26T21:30:50+00:00"
 ancestors:
 via: rest_api
 ---
@@ -152,8 +152,8 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2020-10-27 JAIRO Cloud第二次βテスト 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud)
 - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)
 - [本番移行における重要情報まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549460)
-  - [ML問い合わせ対応について](/wiki/spaces/JAIROCloudWEKO3/pages/43549477/ML)
   - [データ移行ツールに関連する問題点まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549486)
+  - [ML問い合わせ対応について](/wiki/spaces/JAIROCloudWEKO3/pages/43549477/ML)
   - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
 - [オープンアクセス加速化事業関連情報](/wiki/spaces/JAIROCloudWEKO3/pages/43549496)
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
@@ -171,6 +171,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   2026/07/30 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODgwMDAsIlx0NDM1NDk1MjggSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/34398417/6452/e2165d1dadccb5d3bee192b2da1e8264976c88e9/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1851547375/6452/49f34707290fd7f4a93982813b5f6e3491cd860a/_/images/icons/wait.gif)
 
 ###### スペース内検索
