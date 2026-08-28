@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-08-26T21:30:51+00:00"
+last_updated: "2026-08-28T02:24:17+00:00"
 total_pages: 40
 total_announces: 6
 ---
@@ -31,10 +31,10 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-08-18
+- 発生日: 2026-08-26
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
-- 回避策: (1)インポートによる登録・更新 　　アイテム個別登録・編集機能は利用せず、インポートによる登録・更新をご利用ください。 　(2)ファイル形式の変換 　　ファイ
+- 回避策: ●影響が生じている機能 1. 定型レポートの一部のレポートがダウンロードできない／送信できない 　ログイン＞Administration＞統計＞運用レポート＞定
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
 **⚪ 状況不明**
 **JPCOARスキーマVersion2.0対応に関連する問題まとめ**
@@ -3108,13 +3108,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/08/18 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+  約 2 時間前 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
   2026/08/04 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
   2026/07/30 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODgwMDAsIlx0NDM1NDk1MjggSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1851547375/6452/49f34707290fd7f4a93982813b5f6e3491cd860a/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/202150740/6452/f3294d31fa087beb4ec992ffd10ec01cba577cb7/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3124,6 +3124,73 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【重要・実施済】JAIRO Cloudの緊急メンテナンスについて**
+2026-08-28 9:39 頃
+```
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+現在、JAIRO Cloudでは、これまでの不具合等の発生や調査遅延の状況を踏まえ、
+AIを活用した早期の調査・改善を実施しています。
+全ソースコードに対して、AIを利用しての大規模な調査・検証を実施し、その結果について
+信頼性をより高めるための、繰り返しの確認・検証を行いながら、問題の解消に努めています。
+この度、この調査過程で、緊急で対応すべきセキュリティ上の問題が判明したため、
+2026年8月26日（水）19時頃に緊急メンテナンスを実施いたしました。
+本対応に伴い、現在一部の機能がご利用いただけない状態となっております。
+ご利用の皆様にはご不便をおかけし、誠に申し訳ございません。
+本件につきましては、問題の発見と同時に修正を進めており、早期の復旧・解消を目指しております。
+なお、本件に関する実害（（外部からの攻撃、情報漏洩等））は現時点で
+確認されておりません。
+影響の生じている機能および回避策につきましては、以下の通りです。
+●影響が生じている機能
+1. 定型レポートの一部のレポートがダウンロードできない／送信できない
+　ログイン＞Administration＞統計＞運用レポート＞定型レポート＞ダウンロード
+　下記レポートタイプにつきまして、「ダウンロードできませんでした」という
+　エラーが発生しダウンロードができません。
+　また、メールでの送信もできません。
+　影響のあるレポートタイプ
+　・トップページへのアクセス
+　・サイトアクセス
+　※レポートタイプ「All」については、「ダウンロードできませんでした」という
+　　エラーメッセージがでるものの、ダウンロードは可能です。
+　　ただし、「トップページへのアクセス」「サイトアクセス」のレポートは含まれません。
+　　メール送信についても同様です。
+2. ウィジェットでのファイルアップロードができない
+　ログイン＞Administration＞ウェブデザイン管理＞ウィジェット
+　画像の添付が可能なウィジェットの編集画面で、画像ボタンから
+　「Upload」を選択し、画像をアップロードして「Confirm」を
+　クリックすると「Error」と表示されアップロードができません。
+3. 管理画面でのカバーページ設定が変更できない
+　ログイン＞Administration＞PDFカバー表示＞PDF Cover Page
+　「ON/OFF」のボックス内において、「Enable」「Disable」の設定を変更し
+　「保存」をクリックすると「403 Forbidden」となり変更を完了できません。
+4. シークレットURL機能においてURL生成画面で「URL有効期限」及び
+　「ダウンロード回数」の初期値が入力されない。
+　アイテム詳細画面＞「Information」ボタン＞「アクション」欄「シークレットURL」ボタンをクリック
+　※Administration＞設定＞制限公開＞シークレットURLダウンロード 画面で「機能有効化」にチェックが入っている場合
+　シークレットURL機能利用時、URL生成画面に表示されている「URL有効期限」及び
+　「ダウンロード回数」の初期値が入力されません。
+　[回避策]
+　「URL有効期限」及び「ダウンロード回数」欄に手動入力を行うことでURLを生成可能です。
+　管理画面（Administration＞設定＞制限公開＞シークレットURLダウンロード）で設定されている
+　有効期限最大値、ダウンロード回数最大値のチェック機能が働いています。
+●関連マニュアル・ドキュメント
+・定型レポートの出力
+　JAIRO Cloud基本マニュアル
+　統計機能＞1．定型レポートの出力
+　https://jpcoar.org/support/jairo-cloud/manual/statistics/#m1
+・ウィジェットの設定
+　JAIRO Cloud基本マニュアル
+　デザイン管理＞1．ウィジェット／ページについて＞1．1．ウィジェット
+　https://jpcoar.org/support/jairo-cloud/manual/design-management/#m1.1
+・カバーページ設定
+　JAIRO Cloud基本マニュアル
+　インデックス管理＞3．インデックスの登録
+　https://jpcoar.org/support/jairo-cloud/manual/index-management/#m3
+・シークレットURL機能
+　シークレットURL機能マニュアル p.9
+　2)アイテム登録及びシークレットURLを発行②
+　https://jpcoar.org/system/wp-content/uploads/2026/03/%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88URL%E6%A9%9F%E8%83%BD%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E6%8B%85%E5%BD%93%E8%81%B7%E5%93%A1%E5%90%91%E3%81%91%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf
+```
 **（終了しました）【2026年8月18日（火）9:30～17:00】JAIRO Cloudメンテナンスのお知らせ（サービス停止）**
 2026-08-18 17:03 頃
 ```
