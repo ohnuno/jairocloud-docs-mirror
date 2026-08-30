@@ -2,7 +2,7 @@
 title: 2020-10-27 JAIRO Cloud第二次βテスト 制限事項
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud"
-fetched_at: "2026-08-29T21:25:27+00:00"
+fetched_at: "2026-08-30T21:45:36+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
   - リリースノート
