@@ -1,8 +1,8 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-01T21:31:30+00:00"
-total_pages: 40
+last_updated: "2026-09-02T21:27:50+00:00"
+total_pages: 41
 total_announces: 6
 ---
 # JAIROクラウド ドキュメント (Confluence)
@@ -2498,6 +2498,27 @@ JAIRO Cloudでは、特定のIPアドレス及びユーザーエージェント�
 
 ---
 
+# 2026-09-02(v2.0.4)
+_Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4>_
+_階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
+# 主な機能追加
+- なし
+# 主な機能修正
+- 2026年8月26日の緊急メンテンスで停止した機能、および対策が必要と判明した機能について、セキュリティ対応を実施しました。
+**最新の課題リスト：**
+- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/217284609/JC_WEKO3_ISSUES_20260902.xlsx?version=1&modificationDate=1788332325064&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/217284609/JC_WEKO3_ISSUES_20260902.xlsx?version=1&modificationDate=1788332325064&cacheVersion=1&api=v2)
+# 補足
+JAIRO Cloudでは、これまでの不具合等の発生や調査遅延の状況を踏まえ、AIを活用した早期の調査・改善を実施しています。
+全ソースコードに対して、AIを利用しての大規模な調査・検証を実施し、その結果について信頼性をより高めるための、繰り返しの確認・検証を行いながら、問題の解消に努めています。
+この度、この調査過程で、緊急で対応すべきセキュリティ上の問題が判明したため、2026年8月26日（水）19時頃に緊急メンテナンスを実施いたしました。
+これに伴い一部の機能がご利用いただけない状態となっておりましたが、本アップデートにて解消いたしました。
+ご利用の皆様にはご不便をおかけし、誠に申し訳ございません。
+なお、本件に関する実害（外部からの攻撃、情報漏洩等）は現時点で確認されておりません。
+- 参考
+  - [JAIRO Cloud事務局からのお知らせ > 件名：【重要・実施済】JAIRO Cloudの緊急メンテナンスについて](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud#%E3%80%90%E9%87%8D%E8%A6%81%E3%83%BB%E5%AE%9F%E6%96%BD%E6%B8%88%E3%80%91JAIRO-Cloud%E3%81%AE%E7%B7%8A%E6%80%A5%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+
+---
+
 # リリースノート
 _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43550742>_
 _階層: JAIRO Cloud（WEKO3）サポート_
@@ -3098,23 +3119,24 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2021-05-28](/wiki/spaces/JAIROCloudWEKO3/pages/43548768/2021-05-28)
   - [2021-03-08 JAIRO Cloud先行移行 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548755/2021-03-08+JAIRO+Cloud)
   - [2020-10-27 JAIRO Cloud第二次βテスト 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud)
+  - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4)
 - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)
 - [本番移行における重要情報まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549460)
+  - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
   - [データ移行ツールに関連する問題点まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549486)
   - [ML問い合わせ対応について](/wiki/spaces/JAIROCloudWEKO3/pages/43549477/ML)
-  - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
 - [オープンアクセス加速化事業関連情報](/wiki/spaces/JAIROCloudWEKO3/pages/43549496)
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 4:45 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3 "JAIROCloud_WEKO3")
-  2026/08/04 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [2025-02-25(v1.0.7b)](/wiki/spaces/JAIROCloudWEKO3/pages/43549528/2025-02-25+v1.0.7b "JAIROCloud_WEKO3")
-  2026/07/30 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODUzNzk3ODgwMDAsIlx0NDM1NDk1MjggSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1197200299/6452/d97aa8915bfd372b71af9baec695ac139a2aa1ed/_/images/icons/wait.gif)
+  昨日の 午後 4:36 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
+  昨日の 午後 3:59 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [JC\_WEKO3\_ISSUES\_20260507.xlsx](/wiki/pages/viewpageattachments.action?pageId=217284609&preview=%2F217284609%2F217284680%2FJC_WEKO3_ISSUES_20260507.xlsx)
+  昨日の 午後 3:58 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzMjUwMDAsIlx0MjE3Mjg0NjgwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
+![お待ちください](/wiki/s/-2109690859/6452/02b54dceee994a50de0b0b1895ddfee01001f6c1/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3124,6 +3146,20 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**（終了しました）【2026年9月2日（水）10:00～16:00】JAIRO Cloud緊急アップデート（v2.0.4）のお知らせ（ログイン停止）**
+2026-09-02 16:25 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+標記の件につきまして、以下の通りJAIRO Cloudアップデートが完了しました。
+　2026年9月2日（水）10:00～ 16:00
+以降は通常通りにご利用いただけます。
+アップデート内容については、以下のリリースノートをご確認ください。
+　JAIRO Cloud（WEKO3）サポート > リリースノート > 2026-09-02(v2.0.4)
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4
+どうぞよろしくお願いいたします。
+```
 **【2026年9月2日（水）10:00～16:00】JAIRO Cloud緊急アップデート（v2.0.4）のお知らせ（ログイン停止）**
 2026-09-01 16:31 頃
 ```
