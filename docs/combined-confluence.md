@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-03T21:32:08+00:00"
+last_updated: "2026-09-04T21:10:25+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-09-02
+- 発生日: 2026-09-04
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 回避策: ●影響が生じている機能 1. 定型レポートの一部のレポートがダウンロードできない／送信できない 　ログイン＞Administration＞統計＞運用レポート＞定
@@ -3130,13 +3130,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/09/02 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+  昨日の 午後 6:18 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
   2026/09/02 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JC\_WEKO3\_ISSUES\_20260507.xlsx](/wiki/pages/viewpageattachments.action?pageId=217284609&preview=%2F217284609%2F217284680%2FJC_WEKO3_ISSUES_20260507.xlsx)
   2026/09/02 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzMjUwMDAsIlx0MjE3Mjg0NjgwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-384628651/6452/eadb5cd83e29ed8ec4e51760eec7bf77dd5145b2/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/665984597/6452/c28e276712707d0cacbd914046f0d0a69cfe09f4/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3146,6 +3146,39 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**（経過報告）【2026年9月4日（金）13:45～未定】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
+2026-09-04 17:31 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+標記の件につきまして、引き続き対処を行っておりますが、メンテナンスの終了時刻が
+予定時刻を超える見込みですのでご連絡いたします。
+予定：2026年9月4日（金）13:45～19:00
+月曜日以降になりますが、改めて完了アナウンスをお送りします。
+ご利用の機関様にはご利用できない状況が継続することとなり、大変申し訳ございません。
+どうぞよろしくお願いいたします。
+```
+**【2026年9月4日（金）13:45～19:00】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
+2026-09-04 13:33 頃
+```
+JAIRO Cloud利用機関 各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+現在、JAIRO CloudにおいてJAIRO Cloudでアイテムの個別編集、
+インポートによる一括更新でエラーが発生するなどの事象が発生しております。
+対処のため、下記の時間帯で緊急メンテナンスを実施します。
+■発生日時
+2026年9月3日 20時45分頃 ～ 継続中
+■メンテナンス時間帯
+2026年9月4日 13:45 ～ 19:00
+※停止期間中は編集・検索・閲覧を含む全てのJAIRO Cloudの機能がご利用できず、
+　メンテナンス画面が表示されます。
+※メンテナンスは19時までに終了見込みですが、早期に終了した場合にはご連絡いたします。
+　メンテナンスが継続している場合、17時頃に途中経過をご報告いたします。
+本アナウンス以後、完了アナウンスがあるまではログインを伴う作業は停止してください。
+直前のご連絡となり申し訳ございませんが、どうぞよろしくお願いいたします。
+```
 **（終了しました）【2026年9月2日（水）10:00～16:00】JAIRO Cloud緊急アップデート（v2.0.4）のお知らせ（ログイン停止）**
 2026-09-02 16:25 頃
 ```
