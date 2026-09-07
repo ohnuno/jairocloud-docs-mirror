@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-06T20:58:28+00:00"
+last_updated: "2026-09-07T21:51:58+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -2460,6 +2460,34 @@ v2.0.0アップデートでSWORD APIの仕様を一部変更（OAuth2のスコ�
 ＜送信先＞  
 JAIRO Cloud事務局（国立情報学研究所内）  
 jc-office(at)nii.ac.jp　※「(at)」は「@」に置き換えてください
+**16）インデックス検索結果画面の表示変更、インデックスごとのCNRIハンドル登録（2026/9/7追記）**
+v2.0.0アップデートで、インデックス機能について以下のような変更があります。
+- インデックス検索結果画面（インデックスをクリックした際に表示される画面）
+  - ［Index List］エリア
+    - Administration > インデックスツリー管理 > ツリー編集 の インデックス編集で［コメント］に書いた内容は、Administration > インデックスツリー管理 > 雑誌情報で 「Output」を選択した場合に非表示となる  
+      （同設定で「Do Not Output」を選択した場合は、雑誌情報が表示されない代わりに「コメント」に入力した内容が表示されます）
+  - ［アイテムリスト］エリア
+    - 各アイテムに［Description］というボタンが表示され、クリックするとアイテムのDescription情報が表示される
+    - 各アイテムに［Files］というボタンが表示され、クリックするとコンテンツファイルの種類に応じたボタンが表示される
+    - 各アイテムに［Reference］というボタンが表示され、クリックするとアイテムの関連識別子情報が表示される
+- インデックス編集画面（Administration > インデックスツリー管理 > ツリー編集）
+  - インデックス検索結果が表示できる［インデックスURL］が表示される
+  - CNRIハンドルを使用している場合、インデックスごとにCNRIハンドルが登録され、［CNRI］に表示される
+デフォルトアイテムタイプ（シンプルまたはフル）以外で登録されたアイテムについては、インデックス検索結果画面の［アイテムリスト］エリアにおいて［Description］、［Files］、［Reference］ボタンが表示されない場合がある不具合を確認しております。
+本不具合については、次回以降のアップデートにて解消を予定しております。
+詳細は以下をご覧ください。
+- 影響を受ける機能
+  - Administration > インデックスツリー管理 > ツリー編集
+  - Administration > インデックスツリー管理 > 雑誌情報
+  - トップ > Index List
+- 詳細
+  - [WEKO3 ユーザー操作マニュアル > アイテムを検索する > インデックスで検索する > 雑誌情報を表示する](https://rcosdp.github.io/weko/user/#%E9%9B%91%E8%AA%8C%E6%83%85%E5%A0%B1%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B)（外部サイト）
+  - [WEKO3 ユーザー操作マニュアル > アイテムを検索する > アイテムリストを表示する](https://rcosdp.github.io/weko/user/#%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B)（外部サイト）
+  - [JAIRO Cloud基本マニュアル > インデックス管理 > 3．インデックスの登録](https://jpcoar.org/support/jairo-cloud/manual/index-management/#m3) >［インデックス編集］の項目（外部サイト）
+  - [WEKO3 システム管理マニュアル > インデックスツリー管理 > 雑誌情報を管理する](https://rcosdp.github.io/weko/v2.0.0/admin/#%E9%9B%91%E8%AA%8C%E6%83%85%E5%A0%B1%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)（外部サイト）
+- 関連
+  - 主な機能追加 > アイテム一覧、雑誌表示画面を変更しました。
+  - 最新の課題リスト#547
 
 ---
 
@@ -3130,12 +3158,12 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/09/04 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 12:02 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+- [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
+  昨日の 午前 9:27 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
   2026/09/02 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [JC\_WEKO3\_ISSUES\_20260507.xlsx](/wiki/pages/viewpageattachments.action?pageId=217284609&preview=%2F217284609%2F217284680%2FJC_WEKO3_ISSUES_20260507.xlsx)
-  2026/09/02 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzMjUwMDAsIlx0MjE3Mjg0NjgwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzNzMwMDAsIlx0MjE3Mjg0NjA5IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
 ![お待ちください](/wiki/s/-1890362667/6452/603e5b93d97566d371b3e65fd39856085d42d29a/_/images/icons/wait.gif)
 **スペース内検索**
 
@@ -3146,6 +3174,24 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**（終了しました）【2026年9月4日（金）13:45～19:15】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
+2026-09-07 11:46 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+標記の件につきまして、以下の通りJAIRO Cloudメンテナンスが完了しました。
+■メンテナンスの実施時間
+2026年9月4日（金）13:45～19:15
+■メンテナンスの理由
+2026年9月3日（木）20:45頃、JAIRO Cloudにサーバ障害が発生し、
+その影響でシステム動作や一部機能に影響が出ている状況でした。
+具体的には、アイテムの個別編集、およびインポートによる一括更新時にエラーが発生し、
+登録が完了できない場合がございました。
+本メンテナンスにより、9月4日（金）19:15頃に復旧しております。
+ご利用の機関様には大変ご迷惑をおかけし、申し訳ございませんでした。
+どうぞよろしくお願いいたします。
+```
 **（経過報告）【2026年9月4日（金）13:45～未定】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
 2026-09-04 17:31 頃
 ```
