@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-09-07T21:51:58+00:00"
+fetched_at: "2026-09-09T21:24:52+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,60 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## 【JAIRO Cloud】v2.0.4 アップデートに伴う不具合のお知らせ
+2026-09-09 13:54 頃
+
+```
+JAIRO Cloud利用機関各位
+
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+
+2026年9月2日に実施いたしましたv2.0.4アップデート以降、アイテムの個別削除が
+行えない不具合が発生していることが確認されました。
+ご利用の皆様にはご迷惑をおかけし、誠に申し訳ございません。
+
+事象の概要および回避策につきまして、以下の通りご案内いたします。
+
+＜事象＞
+ログイン後、アイテム個別編集画面にて「削除」ボタンをクリックすると
+「INTERNAL SERVER ERROR」と表示されアイテムを削除することができません。
+
+＜回避策＞
+本不具合の修正まで、以下のいずれかの方法にてご対応いただけますようお願いいたします。
+
+・Publish Statusの変更（推奨）
+　アイテムの削除は行えませんが、「Publish Status」を「公開」から「非公開」へ
+　変更することで、非ログインユーザーからの閲覧を防ぐことができます。
+　また、OAI-PMH には deleted（削除情報）が出力されるため、IRDBにも削除アイテムとして
+　ハーベストされます。
+・インデックス単位での一括削除
+　Administration＞アイテム管理＞一括削除 から、アイテムの一括削除が可能です。
+　※個別のアイテムを選択して削除することはできません。
+　　不要なアイテムのみを削除したい場合は、「削除用インデックス」等を新規作成し、
+　　対象アイテムの所属インデックスを変更したうえで一括削除を実行してください。
+
+＜今後の対応＞
+本不具合については、次回のアップデートにて解消を予定しております。
+
+＜関連ドキュメント＞
+JAIRO Cloud基本マニュアル
+　基本操作＞６．５．［アイテム詳細］画面＞■メタデータ＞10 Publish Status
+　https://jpcoar.org/support/jairo-cloud/manual/basic-operations/#m6.5
+　アイテム個別登録＞5．アイテムの削除
+　https://jpcoar.org/support/jairo-cloud/manual/item-registration/#m5
+
+　インデックス管理＞5．インデックスの削除
+　https://jpcoar.org/support/jairo-cloud/manual/index-management/#m5
+　※インデックスの削除は、JAIRO Cloud（v1.0.7）における制限事項でしたが、JAIRO Cloud（v2.0.0）への
+　　アップデートにより現在は制限が解除されました。
+　JAIRO Cloud（WEKO3）サポート＞リリースノート＞2026-03-18(v2.0.0)
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0#5%EF%BC%89v1.0.7%E3%80%81v1.0.7b%E3%81%AE%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+　5）v1.0.7、v1.0.7bの制限事項について
+
+どうぞよろしくお願いいたします。
+```
 
 ## （終了しました）【2026年9月4日（金）13:45～19:15】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）
 2026-09-07 11:46 頃

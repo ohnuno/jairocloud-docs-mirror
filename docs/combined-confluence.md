@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-08T21:31:44+00:00"
+last_updated: "2026-09-09T21:24:52+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,10 +31,9 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-09-04
+- 発生日: 2026-09-02
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
-- 回避策: ●影響が生じている機能 1. 定型レポートの一部のレポートがダウンロードできない／送信できない 　ログイン＞Administration＞統計＞運用レポート＞定
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
 **⚪ 状況不明**
 **JPCOARスキーマVersion2.0対応に関連する問題まとめ**
@@ -3158,13 +3157,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/09/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 1:55 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
   2026/09/02 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzNzMwMDAsIlx0MjE3Mjg0NjA5IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
-![お待ちください](/wiki/s/1565590421/6452/61e00a10b22ce148f47d84ad613c29a8f8398a05/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-643703698/6452/8d5415e9197caa1e60392ad427e9d4ccb9056683/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3174,6 +3173,48 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【JAIRO Cloud】v2.0.4 アップデートに伴う不具合のお知らせ**
+2026-09-09 13:54 頃
+```
+JAIRO Cloud利用機関各位
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+2026年9月2日に実施いたしましたv2.0.4アップデート以降、アイテムの個別削除が
+行えない不具合が発生していることが確認されました。
+ご利用の皆様にはご迷惑をおかけし、誠に申し訳ございません。
+事象の概要および回避策につきまして、以下の通りご案内いたします。
+＜事象＞
+ログイン後、アイテム個別編集画面にて「削除」ボタンをクリックすると
+「INTERNAL SERVER ERROR」と表示されアイテムを削除することができません。
+＜回避策＞
+本不具合の修正まで、以下のいずれかの方法にてご対応いただけますようお願いいたします。
+・Publish Statusの変更（推奨）
+　アイテムの削除は行えませんが、「Publish Status」を「公開」から「非公開」へ
+　変更することで、非ログインユーザーからの閲覧を防ぐことができます。
+　また、OAI-PMH には deleted（削除情報）が出力されるため、IRDBにも削除アイテムとして
+　ハーベストされます。
+・インデックス単位での一括削除
+　Administration＞アイテム管理＞一括削除 から、アイテムの一括削除が可能です。
+　※個別のアイテムを選択して削除することはできません。
+　　不要なアイテムのみを削除したい場合は、「削除用インデックス」等を新規作成し、
+　　対象アイテムの所属インデックスを変更したうえで一括削除を実行してください。
+＜今後の対応＞
+本不具合については、次回のアップデートにて解消を予定しております。
+＜関連ドキュメント＞
+JAIRO Cloud基本マニュアル
+　基本操作＞６．５．［アイテム詳細］画面＞■メタデータ＞10 Publish Status
+　https://jpcoar.org/support/jairo-cloud/manual/basic-operations/#m6.5
+　アイテム個別登録＞5．アイテムの削除
+　https://jpcoar.org/support/jairo-cloud/manual/item-registration/#m5
+　インデックス管理＞5．インデックスの削除
+　https://jpcoar.org/support/jairo-cloud/manual/index-management/#m5
+　※インデックスの削除は、JAIRO Cloud（v1.0.7）における制限事項でしたが、JAIRO Cloud（v2.0.0）への
+　　アップデートにより現在は制限が解除されました。
+　JAIRO Cloud（WEKO3）サポート＞リリースノート＞2026-03-18(v2.0.0)
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0#5%EF%BC%89v1.0.7%E3%80%81v1.0.7b%E3%81%AE%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+　5）v1.0.7、v1.0.7bの制限事項について
+どうぞよろしくお願いいたします。
+```
 **（終了しました）【2026年9月4日（金）13:45～19:15】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
 2026-09-07 11:46 頃
 ```
