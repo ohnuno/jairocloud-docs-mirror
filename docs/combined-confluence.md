@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-09T21:24:52+00:00"
+last_updated: "2026-09-10T21:19:47+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -2534,6 +2534,27 @@ _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
 - 2026年8月26日の緊急メンテンスで停止した機能、および対策が必要と判明した機能について、セキュリティ対応を実施しました。
 **最新の課題リスト：**
 - [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/217284609/JC_WEKO3_ISSUES_20260902.xlsx?version=1&modificationDate=1788332325064&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/217284609/JC_WEKO3_ISSUES_20260902.xlsx?version=1&modificationDate=1788332325064&cacheVersion=1&api=v2)
+# 制限事項
+**1）アイテムの個別削除ができない問題（2026/9/10追記）**
+**＜事象＞**
+ログイン後、アイテム個別編集画面にて「削除」ボタンをクリックすると「INTERNAL SERVER ERROR」と表示されアイテムを削除することができません。
+**＜回避策＞**
+本不具合の修正まで、以下のいずれかの方法にてご対応いただけますようお願いいたします。
+- Publish Statusの変更（推奨）  
+  アイテムの削除は行えませんが、「Publish Status」を「公開」から「非公開」へ変更することで、非ログインユーザーからの閲覧を防ぐことができます。  
+  また、OAI-PMH には deleted（削除情報）が出力されるため、IRDBにも削除アイテムとしてハーベストされます。
+- インデックス単位での一括削除  
+  Administration > アイテム管理 > 一括削除 から、アイテムの一括削除が可能です。  
+  ※個別のアイテムを選択して削除することはできません。不要なアイテムのみを削除したい場合は、「削除用インデックス」等を新規作成し、対象アイテムの所属インデックスを変更したうえで一括削除を実行してください。
+**＜今後の対応＞**
+本不具合については、次回のアップデートにて解消を予定しております。
+**＜関連ドキュメント＞**
+- JAIRO Cloud基本マニュアル
+  - [基本操作 > ６．５．［アイテム詳細］画面](https://jpcoar.org/support/jairo-cloud/manual/basic-operations/#m6.5) > ■メタデータ > 10 Publish Status（外部サイト）
+  - [アイテム個別登録 > 5．アイテムの削除](https://jpcoar.org/support/jairo-cloud/manual/item-registration/#m5)（外部サイト）
+  - [インデックス管理 > 5．インデックスの削除](https://jpcoar.org/support/jairo-cloud/manual/index-management/#m5)（外部サイト）
+    - ※インデックスの削除は、JAIRO Cloud（v1.0.7）における制限事項でしたが、JAIRO Cloud（v2.0.0）へのアップデートにより現在は制限が解除されました。  
+      [リリースノート > 2026-03-18(v2.0.0) > 5）v1.0.7、v1.0.7bの制限事項について](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0#5%EF%BC%89v1.0.7%E3%80%81v1.0.7b%E3%81%AE%E5%88%B6%E9%99%90%E4%BA%8B%E9%A0%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 # 補足
 JAIRO Cloudでは、これまでの不具合等の発生や調査遅延の状況を踏まえ、AIを活用した早期の調査・改善を実施しています。
 全ソースコードに対して、AIを利用しての大規模な調査・検証を実施し、その結果について信頼性をより高めるための、繰り返しの確認・検証を行いながら、問題の解消に努めています。
@@ -3156,14 +3177,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
+- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
+  昨日の 午後 4:36 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 1:55 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  2026/09/09 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
-- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
-  2026/09/02 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODgzMzIzNzMwMDAsIlx0MjE3Mjg0NjA5IEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjcCJd_h_W10%3D)
-![お待ちください](/wiki/s/-643703698/6452/8d5415e9197caa1e60392ad427e9d4ccb9056683/_/images/icons/wait.gif)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODg3NDA4NzIwMDAsIlx0OTc0ODQ4MDEgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
+![お待ちください](/wiki/s/1304125166/6452/30250e0d13b3edf312f76f9b14710e723a19eaaf/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
