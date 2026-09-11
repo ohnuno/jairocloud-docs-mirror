@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-10T21:19:47+00:00"
+last_updated: "2026-09-11T21:28:31+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-09-02
+- 発生日: 2026-09-10
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3177,14 +3177,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
-- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
-  昨日の 午後 4:36 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/09/09 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 4:57 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
+  2026/09/10 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODg3NDA4NzIwMDAsIlx0OTc0ODQ4MDEgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/1304125166/6452/30250e0d13b3edf312f76f9b14710e723a19eaaf/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/1627966638/6452/abc6403e9269ea612ba6e78f46a8e5ca34e93ddd/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3194,6 +3194,34 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【重要・実施済】JAIRO Cloudの緊急メンテナンスについて（シークレットURL機能の一時中止）**
+2026-09-11 16:04 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+現在、JAIRO Cloudでは、これまでの不具合等の発生や調査遅延の状況を踏まえ、
+AIを活用した早期の調査・改善を実施しています。
+全ソースコードに対して、AIを利用しての大規模な調査・検証を実施し、その結果について
+信頼性をより高めるための、繰り返しの確認・検証を行いながら、問題の解消に努めています。
+この度、この調査を深める中で、幾つかの手順を踏むことで発生するセキュリティ上の問題が
+発覚しました。安全を取り、2026年9月10日（木）17時42分頃に緊急メンテナンスを実施いたしました。
+本対応に伴い、現在一部の機能がご利用いただけない状態となっています。
+ご利用の皆様にはご不便をおかけし、誠に申し訳ございません。
+本件につきましては、問題の発見と同時に修正を進めており、早期の復旧・解消を目指しております。
+なお、本件に関する実害（外部からの攻撃、情報漏洩等）は、現時点では確認されておりません。
+影響の生じている機能につきましては、以下の通りです。
+●影響が生じている機能
+※Administration＞設定＞制限公開＞シークレットURLダウンロード 画面で「機能有効化」にチェックが入っている場合
+・シークレットURL機能の一時中止
+　アイテム詳細画面＞「Information」ボタン＞「アクション」欄「シークレットURL」ボタンをクリック
+　既に発行済みのシークレットURLについて、アクセスしてもファイルがダウンロードできません。
+　また、新たにシークレットURLを発行しようとすると「Error: Forbidden」と表示され、発行できません。
+●関連マニュアル・ドキュメント
+・シークレットURL機能
+　シークレットURL機能マニュアル p.8-10
+　https://jpcoar.org/system/wp-content/uploads/2026/03/%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88URL%E6%A9%9F%E8%83%BD%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E6%8B%85%E5%BD%93%E8%81%B7%E5%93%A1%E5%90%91%E3%81%91%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf
+```
 **【JAIRO Cloud】v2.0.4 アップデートに伴う不具合のお知らせ**
 2026-09-09 13:54 頃
 ```
