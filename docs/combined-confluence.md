@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-12T21:08:04+00:00"
+last_updated: "2026-09-13T21:13:07+00:00"
 total_pages: 41
 total_announces: 6
 ---
