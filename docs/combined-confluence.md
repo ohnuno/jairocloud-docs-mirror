@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-14T22:13:14+00:00"
+last_updated: "2026-09-15T21:51:29+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -2054,7 +2054,7 @@ _階層: JAIRO Cloud（WEKO3）サポート / リリースノート_
 - アイテムの編集を行う際に、エラーが発生する場合がある問題を修正しました。（2026/4/30追記）
 - アイテムタイププロパティのスキーマとアイテムタイプのスキーマの表示名の差異がある場合に情報を表示するよう修正しました。（2026/4/30追記）
 **最新の課題リスト：**
-- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/97484801/JC_WEKO3_ISSUES_20260318.xlsx?version=2&modificationDate=1773815719939&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/97484801/JC_WEKO3_ISSUES_20260318.xlsx?version=2&modificationDate=1773815719939&cacheVersion=1&api=v2)
+- [![](https://nii-auth.atlassian.net/wiki/download/thumbnails/97484801/JC_WEKO3_ISSUES_20260318.xlsx?version=3&modificationDate=1789456703422&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/97484801/JC_WEKO3_ISSUES_20260318.xlsx?version=3&modificationDate=1789456703422&cacheVersion=1&api=v2)
 # 制限事項
 本アップデート後に発生する制限事項のうち一部をご案内します。
 なお、これら以外にも、本アップデートで機能追加、修正が行われた機能について、引き続き課題が残っている場合があります。それらについては、「最新の課題リスト」に新規の課題として追加していますので、不具合を確認された際にはご確認ください。
@@ -2209,7 +2209,7 @@ v2.0.0以前の状態に戻すのではなく、HTMLタグがそのまま表示�
 本アップデートで、一部を除いてJPCOARスキーマVersion2.0に本格対応しました。
 詳しくは「[JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)」をご覧ください。
 また、JPCOARスキーマVersion2.0対応の基本方針やアップデート前後の利用機関の必要作業について以下のファイルを更新しました。赤字部分の変更点についてご確認ください。
-[![](https://nii-auth.atlassian.net/wiki/download/thumbnails/97484801/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf?version=1&modificationDate=1773815720004&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/97484801/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf?version=1&modificationDate=1773815720004&cacheVersion=1&api=v2)
+[![](https://nii-auth.atlassian.net/wiki/download/thumbnails/97484801/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf?version=2&modificationDate=1789456703502&cacheVersion=1&api=v2&viewType=fileMacro)](/wiki/download/attachments/97484801/JAIRO%20Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf?version=2&modificationDate=1789456703502&cacheVersion=1&api=v2)
 制限事項「4）e-Rad・e-Rad\_ResearcherのOAI-PMH出力時のJPCOARスキーマバージョン変換ができていない問題」もご確認ください。
 - 関連
   - 制限事項 > 4）e-Rad・e-Rad\_ResearcherのOAI-PMH出力時のJPCOARスキーマバージョン変換ができていない問題
@@ -2285,7 +2285,7 @@ v2.0.0以前の状態に戻すのではなく、HTMLタグがそのまま表示�
 - 影響を受ける機能
   - Administration > ファイル管理 > ロケーション
   - Administration > ワークフロー管理 > ワークフロー
-**6）GakuNin RDM連携機能**
+**6）GakuNin RDM連携機能（2026/9/15更新）**
 「GakuNin RDM」から送信された論文ファイルおよび根拠データをJAIRO Cloudで簡単に登録・公開できる機能です。
 - 概要
   - GakuNin RDM連携機能は、2026/3/18に、GakuNin RDM×JAIRO Cloud連携（GJ連携）「オープンβ」としてスタートします。
@@ -2308,9 +2308,12 @@ GJ連携に関するご質問は、以下にお願いいたします。
   - [JPCOAR JAIRO Cloud Community ML](https://jpcoar.org/support/communitytools/jpcoar-jairo-cloud-community-ml/)（外部サイト）
 - GakuNin RDMの機能/操作に関するご質問
   - [GakuNin RDMサポートポータル > お問い合わせ > 各種お問い合わせ](https://support.rdm.nii.ac.jp/contact/)（外部サイト）
-- GJ連携（オープンβ）の枠組みに関するご質問
+- GJ連携~~（オープンβ）~~の枠組みに関するご質問
   - JAIRO Cloud事務局（国立情報学研究所内）  
     jc-office(at)nii.ac.jp　※「(at)」は「@」に置き換えてください
+**2026/09/15更新**
+GakuNin RDM連携機能は、2026/9/9より、GJ連携正式版として提供開始されました。 「JAIRO Cloud公開支援機能」の詳細は以下をご確認ください。
+<https://support.rdm.nii.ac.jp/release/26.09.09/> （外部サイト）
 **7）学認認証切り替え（個別受付）**
 JAIRO Cloud統合認証システムでユーザーアカウントを登録しなくても、学認のアカウントを用いてJAIRO Cloudを使用することができます。
 - 概要
@@ -3177,14 +3180,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
-- [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/09/11 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
-- [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4 "JAIROCloud_WEKO3")
-  2026/09/10 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
-  2026/09/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODg3NDA4NzIwMDAsIlx0OTc0ODQ4MDEgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1972019922/6452/9b13d7cbf5a6495763ce320e64e4584e5b8eb560/_/images/icons/wait.gif)
+  昨日の 午後 5:04 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
+  昨日の 午後 4:18 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+- [JC\_WEKO3\_ISSUES\_20260318.xlsx](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F121667631%2FJC_WEKO3_ISSUES_20260318.xlsx)
+  昨日の 午後 4:18 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIxNjY3NjMxIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
+![お待ちください](/wiki/s/1494888174/6452/299c722bdd045158b1e3a5a838d4b89488b324d7/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
