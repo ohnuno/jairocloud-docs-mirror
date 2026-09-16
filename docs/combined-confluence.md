@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-15T21:51:29+00:00"
+last_updated: "2026-09-16T21:49:10+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-09-10
+- 発生日: 2026-09-09
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3180,14 +3180,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud)
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
+- [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
+  昨日の 午前 9:55 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
-  昨日の 午後 5:04 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+  2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
-  昨日の 午後 4:18 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-- [JC\_WEKO3\_ISSUES\_20260318.xlsx](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F121667631%2FJC_WEKO3_ISSUES_20260318.xlsx)
-  昨日の 午後 4:18 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
-[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIxNjY3NjMxIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/1494888174/6452/299c722bdd045158b1e3a5a838d4b89488b324d7/_/images/icons/wait.gif)
+  2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
+[表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
+![お待ちください](/wiki/s/501174382/6452/b6af3d3d988160abe3378d6e7c905ceeeb1f2433/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,30 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**GakuNin RDM×JAIRO Cloud連携 正式版提供開始**
+2026-09-15 16:10 頃
+```
+JAIRO Cloud利用機関各位
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+2026年9月9日よりGakuNin RDM×JAIRO Cloud連携（GJ連携）の正式版の提供を開始しましたので、お知らせいたします。
+GJ連携機能は、2026年3月18日より「オープンβ」として提供されていましたが、
+GakuNin RDM側でJAIRO Cloud連携に特化したUIである「JAIRO Cloud公開支援機能」の提供開始に伴い、
+正式版となりました。
+「JAIRO Cloud公開支援機能」の詳細は以下をご覧ください。
+https://support.rdm.nii.ac.jp/release/26.09.09/
+なお、GJ連携に関するご質問は、以下にお願いいたします。
+・JAIRO Cloudの機能/操作に関するご質問
+　・ JPCOAR JAIRO Cloud Community ML
+　　https://jpcoar.org/support/communitytools/jpcoar-jairo-cloud-community-ml/
+・ GakuNin RDMの機能/操作に関するご質問
+    ・ GakuNin RDMサポートポータル > お問い合わせ >  各種お問い合わせ
+　　https://support.rdm.nii.ac.jp/contact/
+・ GJ連携の枠組みに関するご質問
+    ・ JAIRO Cloud事務局（国立情報学研究所内）
+    jc-office(at)nii.ac.jp　※「(at)」は「@」に置き換えてください
+どうぞよろしくお願いいたします。
+```
 **【重要・実施済】JAIRO Cloudの緊急メンテナンスについて（シークレットURL機能の一時中止）**
 2026-09-11 16:04 頃
 ```

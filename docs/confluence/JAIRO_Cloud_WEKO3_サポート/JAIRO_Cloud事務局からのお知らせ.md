@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-09-11T21:28:31+00:00"
+fetched_at: "2026-09-16T21:49:10+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,38 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## GakuNin RDM×JAIRO Cloud連携 正式版提供開始
+2026-09-15 16:10 頃
+
+```
+JAIRO Cloud利用機関各位
+
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+
+2026年9月9日よりGakuNin RDM×JAIRO Cloud連携（GJ連携）の正式版の提供を開始しましたので、お知らせいたします。
+
+GJ連携機能は、2026年3月18日より「オープンβ」として提供されていましたが、
+GakuNin RDM側でJAIRO Cloud連携に特化したUIである「JAIRO Cloud公開支援機能」の提供開始に伴い、
+正式版となりました。
+
+「JAIRO Cloud公開支援機能」の詳細は以下をご覧ください。
+https://support.rdm.nii.ac.jp/release/26.09.09/
+
+なお、GJ連携に関するご質問は、以下にお願いいたします。
+・JAIRO Cloudの機能/操作に関するご質問
+　・ JPCOAR JAIRO Cloud Community ML
+　　https://jpcoar.org/support/communitytools/jpcoar-jairo-cloud-community-ml/
+・ GakuNin RDMの機能/操作に関するご質問
+    ・ GakuNin RDMサポートポータル > お問い合わせ >  各種お問い合わせ
+　　https://support.rdm.nii.ac.jp/contact/
+・ GJ連携の枠組みに関するご質問
+    ・ JAIRO Cloud事務局（国立情報学研究所内）
+    jc-office(at)nii.ac.jp　※「(at)」は「@」に置き換えてください
+
+どうぞよろしくお願いいたします。
+```
 
 ## 【重要・実施済】JAIRO Cloudの緊急メンテナンスについて（シークレットURL機能の一時中止）
 2026-09-11 16:04 頃
