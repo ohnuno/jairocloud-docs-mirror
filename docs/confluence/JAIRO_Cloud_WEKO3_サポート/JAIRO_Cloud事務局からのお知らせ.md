@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-09-16T21:49:10+00:00"
+fetched_at: "2026-09-18T21:22:39+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,32 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## 【2026/9/30(水)・10/1(木)】JAIRO Cloudメンテナンスのお知らせ
+2026-09-18 10:33 頃
+
+```
+JAIRO Cloud
+ご担当者様
+
+いつもお世話になっております。
+JAIRO Cloud事務局です。
+
+JAIRO Cloudのユーザー管理システムで利用しているWAF（Web
+Application Firewall）のサーバメンテナンスを下記の通り行います。
+
+作業中はご不便をおかけし大変申し訳ございませんが、
+何卒ご理解、ご協力をいただけますよう、お願い申し上げます。
+
+・作業日時：
+　　2026/9/30（水）17:45-20:00（予定）
+　　2026/10/1（木）17:45-20:00（予定）
+・作業内容：JAIRO Cloud UMS WAFサーバのメンテナンス
+・影響範囲：各日18:00頃、ユーザー管理システムについてサービスの瞬断が発生いたします。
+・お願い：
+　　上記作業日時の間はJAIRO Cloudへのログイン、及びユーザー登録・削除をお控えください。
+　　なお、作業終了のご連絡は行いません。
+```
 
 ## GakuNin RDM×JAIRO Cloud連携 正式版提供開始
 2026-09-15 16:10 頃
