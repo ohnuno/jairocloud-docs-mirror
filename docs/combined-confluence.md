@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-09-29T22:47:01+00:00"
+last_updated: "2026-09-30T22:45:15+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -3187,7 +3187,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-749578578/6452/e624a4b25bc2636e8d6ce4acc42ae76600a559ab/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/1827013870/6452/f9b339280473e73355cf49e7b210d05d475cea81/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
