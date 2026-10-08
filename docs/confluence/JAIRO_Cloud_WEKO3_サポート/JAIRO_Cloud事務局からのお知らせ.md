@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-10-07T23:24:46+00:00"
+fetched_at: "2026-10-08T23:36:58+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
