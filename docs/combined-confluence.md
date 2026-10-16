@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-15T21:53:21+00:00"
+last_updated: "2026-10-16T21:51:06+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-10-12
+- 発生日: 2026-10-16
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3181,13 +3181,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/10/07 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 7:12 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-380654406/6452/d0a55fb1480d0dea7f4f9d30a156815a4708a5f9/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1289096042/6452/10ecb2537310e6c3b08ef8886224b52f78088644/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,73 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**（終了しました）【2026年10月16日（金） 13:30 ～ 19:00】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
+2026-10-16 18:40 頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+標記の件につきまして、以下の通りJAIRO Cloudメンテナンスが完了しました。
+　2026年10月16日（金） 13:30～17:30
+以降は通常通りにご利用いただけます。
+■ 障害の内容
+2026年10月16日（金）9:15頃、JAIRO Cloudのデータ処理用サーバにて一時的な
+システム障害が発生いたしました。
+サーバ自体は自動再起動により稼働を再開しましたが、内部で処理の遅延・蓄積が
+発生し、システム動作や一部機能に影響が出ている状況でした。
+■ 影響範囲
+アイテム登録
+障害発生時刻（10/16 9:15頃）から緊急メンテナンス完了までの間において、下記の
+影響がありました。
+・アイテムの個別編集、およびインポートによる一括更新時にエラーが発生し、
+登録が完了できない場合がございました。
+統計機能
+・アクセス統計等のデータが一部正常に記録・集計されていない可能性がございます。
+ご利用の機関様には大変ご迷惑をおかけし、申し訳ございませんでした。
+どうぞよろしくお願いいたします。
+```
+**【2026年10月16日（金） 13:30 ～ 19:00】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
+2026-10-16 13:32 頃
+```
+JAIRO Cloud利用機関 各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+現在、JAIRO CloudにおいてJAIRO Cloudでアイテムの個別編集、
+インポートによる一括更新でエラーが発生するなどの事象が発生しております。
+対処のため、下記の時間帯で緊急メンテナンスを実施します。
+■発生日時
+2026年10月16日（金）9時15分頃 ～ 継続中
+■メンテナンス時間帯
+2026年10月16日（金） 13:30 ～ 19:00
+※停止期間中は編集・検索・閲覧を含む全てのJAIRO Cloudの機能がご利用できず、
+　メンテナンス画面が表示されます。
+※メンテナンスは19時までに終了見込みですが、早期に終了した場合にはご連絡いたします。
+　メンテナンスが継続している場合、17時頃に途中経過をご報告いたします。
+本アナウンス以後、完了アナウンスがあるまではログインを伴う作業は停止してください。
+直前のご連絡となり申し訳ございませんが、どうぞよろしくお願いいたします。
+```
+**【調査中】JAIRO Cloud サーバ障害について（2026-10-16～）**
+2026-10-16 12:03 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+平素より大変お世話になっております。 
+JAIRO Cloud事務局です。 
+本日10月16日（金）9時15分頃より、アイテム個別登録ができないなどの事象が発生しております。
+■ 発生日時
+2026年10月16日（金）9:15頃 ～ 継続中
+■ 障害内容
+・アイテム個別登録において、インデックス指定画面から先に進めない
+・アイテムのインポートを実施すると、ステータスは「完了」となるがインポート結果として
+　「エラー: Elasticsearchの更新に失敗しました。」と表示され登録できない
+・Administration＞一括更新 でアイテムリストが表示できない、など
+■ お願い
+　調査が完了するまでログインを伴う操作はお控えください。
+現在、原因等について調査を進めております。
+ご迷惑をおかけし、誠に申し訳ございません。
+詳細が分かり次第改めてご連絡いたしますので、調査結果をお待ち
+くださいますよう、何卒お願い申し上げます。
+```
 ****【重要】JAIRO Cloud臨時メンテナンスに伴うサービス停止のお知らせ（2026年10月12日）****
 2026-10-07 16:17 頃
 ```
