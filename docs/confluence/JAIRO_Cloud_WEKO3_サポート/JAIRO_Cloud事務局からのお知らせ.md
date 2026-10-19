@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-10-16T21:51:06+00:00"
+fetched_at: "2026-10-19T22:42:25+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -57,7 +57,7 @@ JAIRO Cloud利用機関 各位
 平素より大変お世話になっております。
 JAIRO Cloud事務局です。
 
-現在、JAIRO CloudにおいてJAIRO Cloudでアイテムの個別編集、
+現在、JAIRO Cloudにおいてアイテムの個別編集、
 インポートによる一括更新でエラーが発生するなどの事象が発生しております。
 対処のため、下記の時間帯で緊急メンテナンスを実施します。
 
