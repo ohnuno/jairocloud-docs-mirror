@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-19T22:42:25+00:00"
+last_updated: "2026-10-20T22:00:33+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-10-16
+- 発生日: 2026-10-17
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3181,13 +3181,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 6:24 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午前 9:34 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-600842162/6452/649f9582e94a4fb05a6c438e442c2a893900f9be/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/1780300734/6452/c791709715d778dee26df358836d6b62005cb287/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,37 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【解消済】JAIRO Cloud サーバ障害について（2026-10-17～18）**
+2026-10-20 9:27 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+平素より大変お世話になっております。 
+JAIRO Cloud事務局です。 
+2026年10月17日（土）～2026年10月18日（日）にかけて、下記の時間帯に
+アイテム登録ができないなどの事象が発生しておりました。
+障害発生から皆様へのご連絡までに時間を要し、ご報告が遅くなりましたことを
+お詫び申し上げます。
+また、10月16日（金）の障害および緊急メンテナンスの直後に重ねて障害が発生し、
+ご利用機関の皆様にはご迷惑とご不便をおかけしましたことを、重ねてお詫び申し
+上げます。
+本障害に関する調査結果および対応内容につきまして、以下の通りご報告いたします。
+【障害発生日時及び発生していた事象】
+・2026年10月17日（土）16:23 - 16:37
+　アイテムの登録、参照およびダウンロードが実施できない状態となっておりました。
+・2026年10月17日（土）16:38 - 20:43、および 22:41 - 10月18日（日）3:04
+　アイテムの登録が実施できない状態となっておりました。
+　※アイテムの参照・ダウンロードへの影響はございませんでした
+【原因】
+本事象はJAIRO Cloudで使用しているサーバのメモリが逼迫し、再起動が発生したこと
+によるものです。
+メモリが逼迫した根本的な原因につきましては現在も調査中であり、引き続き原因特定
+と再発防止策の検討を進めております。
+【対応状況】
+再起動が発生したサーバにつきましては自動的に復旧し、現在は正常にアクセス及び
+ご利用が可能な状態となっております。
+どうぞよろしくお願いいたします。
+```
 **（終了しました）【2026年10月16日（金） 13:30 ～ 19:00】JAIRO Cloud緊急メンテナンスのお知らせ（ログイン停止）**
 2026-10-16 18:40 頃
 ```
