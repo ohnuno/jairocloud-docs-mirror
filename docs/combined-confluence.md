@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-20T22:00:33+00:00"
+last_updated: "2026-10-21T22:02:33+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-10-17
+- 発生日: 2026-10-20
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3181,13 +3181,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午前 9:34 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
+  昨日の 午後 5:47 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/1780300734/6452/c791709715d778dee26df358836d6b62005cb287/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-514823108/6452/3e46a66f9180ac180e7300f2e91a70a58569bd02/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,83 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【解消済】JAIRO Cloud サーバ障害について（2026-10-20～21）**
+2026-10-21 17:43 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+10月20日（火）以降、アイテム登録ができないなどの事象が発生
+しておりました件につきまして、下記の通りご報告いたします。
+ご利用機関の皆様にはご迷惑とご不便をおかけしましたこと、及び
+ご報告が遅くなりましたことにつきまして、深くお詫び申し上げます。
+大変申し訳ございませんでした。
+今後日々の監視体制の強化を行いつつ再発防止に努めて参ります。
+どうぞよろしくお願いいたします。
+【障害発生日時及び発生していた事象】 
+・2026年10月20日（火）09:07 - 14:30
+・2026年10月20日（火）19:40 - 10月21日（水）15:14 
+アイテムの登録がしづらい状況が発生しておりました。
+※アイテムの参照・ダウンロードへの影響はございませんでした
+ 【原因】
+特定のユーザーエージェント（UA）からの大量アクセスにより、
+JAIRO Cloudで使用しているサーバのメモリが逼迫し、
+再起動が発生したことによるものでした。
+ 【対応状況】
+原因となっていたユーザーエージェント（UA）について
+ブロック（アクセス遮断）する対応を行いました。
+また、再起動が発生したサーバにつきましては自動的に復旧し、
+現在は正常にアクセス及びご利用が可能な状態となっております。
+```
+**【2026/10/27（火）18:00-20:00】JAIRO Cloudメンテナンスのお知らせ**
+2026-10-21 11:51 頃
+```
+JAIRO Cloud
+ご担当者様
+いつもお世話になっております。
+JAIRO Cloud事務局です。
+JAIRO Cloudの統合認証システムで利用しているWAF（Web
+Application Firewall）のサーバメンテナンスを下記の通り行います。
+作業中はご不便をおかけし大変申し訳ございませんが、
+何卒ご理解、ご協力をいただけますよう、お願い申し上げます。
+・作業日時：2026/10/27（火）18:00-20:00（予定）
+・作業内容：JAIRO Cloud 統合認証システム用WAFサーバのメンテナンス
+・影響範囲：上記の作業期間中、統合認証システムについてサービスの瞬断が複数回発生いたします。
+・お願い：
+　　上記作業日時の間はJAIRO Cloudへのログイン、及びユーザー登録・削除をお控えください。
+　　なお、作業終了のご連絡は行いません。
+```
+**【調査中】JAIRO Cloud サーバ障害について（2026-10-20～）**
+2026-10-21 11:31 頃
+```
+JAIRO Cloud利用機関
+ご担当者　様
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+昨日よりアイテム登録ができない等の事象が発生しておりますため、
+下記のとおりご報告いたします。
+利用機関の皆様には先日来重ねてご迷惑とご不便をおかけしており、
+誠に申し訳ございません。
+どうぞよろしくお願いいたします。
+【障害発生日時及び発生していた事象】
+・2026年10月20日（火）09:07 - 14:30
+　アイテムの登録がしづらい状況になっていました。
+　※アイテムの参照・ダウンロードへの影響はございませんでした
+　また、解消後にアクセスしづらい状況が発生しておりましたが、
+　同日中に解消を確認しております。
+・2026年10月20日（火）19:40 - 継続中
+　・アイテム個別登録において、インデックス指定画面から先に進めない
+　・アイテムのインポートを実施すると、ステータスは「完了」となるがインポート結果として
+　　「エラー: Elasticsearchの更新に失敗しました。」と表示され登録できない
+　など
+【お願い】
+調査・対応が完了するまでログインを伴う操作はお控えください。
+現在、原因等の調査、及び復旧に向けた対応を進めております。
+度々ご迷惑をおかけし、誠に申し訳ございません。
+詳細が分かり次第改めてご連絡いたしますので、調査結果をお待ち
+くださいますよう、何卒お願い申し上げます。
+```
 **【解消済】JAIRO Cloud サーバ障害について（2026-10-17～18）**
 2026-10-20 9:27 頃
 ```
