@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-21T22:02:33+00:00"
+last_updated: "2026-10-22T22:00:46+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -31,7 +31,7 @@ JAIROクラウドで現在制限されている機能、既知の不具合、障
 - 詳細: 本ドキュメント内「2021-03-08 JAIRO Cloud先行移行 制限事項」セクション参照
 **🟢 解消済み（直近）**
 **JAIRO Cloud事務局からのお知らせ**
-- 発生日: 2026-10-20
+- 発生日: 2026-10-21
 - 状況: 解消済み
 - 影響範囲: Administration > 著者DB管理 配下の機能
 - 詳細: 本ドキュメント内「JAIRO Cloud事務局からのお知らせ」セクション参照
@@ -3181,13 +3181,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  昨日の 午後 5:47 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
+  昨日の 午前 11:50 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/-514823108/6452/3e46a66f9180ac180e7300f2e91a70a58569bd02/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-1747534674/6452/8cb820985b969cb870854abe8225dc8cde0d08f3/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,29 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【重要・影響なし】PHPの脆弱性に関するJAIRO Cloudへの影響について**
+2026-10-22 11:21 頃
+```
+JAIRO Cloud利用機関 各位
+平素よりお世話になっております。
+JAIRO Cloud事務局です。
+2026年10月21日（水）にPHPに関する新たな脆弱性（CVE-2026-109618、CVE-2026-109619）が発表されました。
+本件に関するJAIRO Cloudへの影響および対応状況について報告いたします。
+【影響について】
+本脆弱性によるJAIRO Cloudへの影響はございません。 
+利用機関の皆様で特別な作業や対応を行っていただく必要もございません。
+【詳細・対応状況】
+・現在運用中のJAIRO Cloud（WEKO3）について
+　現行のJAIRO Cloud（WEKO3）ではシステム構成上PHPを利用していないため、
+　本脆弱性の影響を受けることはございません。
+・JAIRO Cloud（WEKO2）からの移行状況について
+　過去のバージョン（WEKO2）では一部機能にPHPを利用しておりましたが、
+　現在はシステム全体でPHPが使用されていないことを確認済みです。
+・実証実験環境および特別対応環境について
+　一部の実証実験環境や個別対応等でPHPを利用している環境が残存しておりますが、
+　本脆弱性の影響を受けないよう既に対策を実施済みです。
+今後ともJAIRO Cloudをよろしくお願い申し上げます。
+```
 **【解消済】JAIRO Cloud サーバ障害について（2026-10-20～21）**
 2026-10-21 17:43 頃
 ```
