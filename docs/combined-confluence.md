@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-26T22:57:20+00:00"
+last_updated: "2026-10-27T22:46:50+00:00"
 total_pages: 41
 total_announces: 6
 ---
@@ -3181,13 +3181,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 - [WEKO3関連資料](/wiki/spaces/JAIROCloudWEKO3/pages/43549584/WEKO3)
 **最近の更新**
 - [JAIRO Cloud事務局からのお知らせ](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud "JAIROCloud_WEKO3")
-  2026/10/22 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 4:18 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0 "JAIROCloud_WEKO3")
   2026/09/15 • 投稿者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 - [JAIRO Cloud（WEKO3）におけるJPCOARスキーマVersion2.0対応について（2026年3月18日修正）.pdf](/wiki/pages/viewpageattachments.action?pageId=97484801&preview=%2F97484801%2F122093940%2FJAIRO+Cloud%EF%BC%88WEKO3%EF%BC%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BJPCOAR%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9EVersion2.0%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%882026%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
   2026/09/15 • ファイル添付者 : [金嶋紀子](/wiki/display/~712020%3Aef3df091-131e-455b-9791-cb0a20fc3d6a)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3ODk0NTY3MDMwMDAsIlx0MTIyMDkzOTQwIEpgSl1PPzRmUTlZKCwzYSZRSlpcXCBjYSJd_h_W10%3D)
-![お待ちください](/wiki/s/1538798652/6452/46ddb18ee2eca003230efe39f32e91deb118883f/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/47428948/6452/c0d2759be9fe2b0e34cb6816d946017b269dbb54/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
@@ -3197,6 +3197,52 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/J
 _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 個別連絡は転記の対象外です。
+**【JAIRO Cloud】Yハンドルのリダイレクト終了（2027年3月末）について**
+2026-10-27 14:57 頃
+```
+JAIRO Cloud
+ご担当者様
+※本件はJAIRO Cloud（WEKO2）からJAIRO Cloud（WEKO3）へのシステム移行を経た
+　利用機関に対するご案内です。
+　JAIRO Cloud（WEKO3）より利用開始された利用機関におかれましてはご放念ください。
+以下の資料にてご案内しておりました通り、2027年3月末を以ちまして
+「Yハンドル」（JAIRO Cloud（WEKO2）独自のハンドルシステム）
+によるURLのリダイレクトを終了いたします。
+次期JAIRO Cloud（WEKO3）本番移行 資料
+https://jpcoar.repo.nii.ac.jp/records/2000255
+※「本番移行_移行仕様について（2023-08-31）.pdf」p.44参照
+利用機関の皆様におかれましては、下記をご一読の上、
+必要に応じてご対応をお願いいたします。
+どうぞよろしくお願いいたします。
+●影響
+以下のようなリダイレクトが行われなくなります。
+・Yハンドル（WEKO2）のURL → JAIRO Cloud（WEKO3）のURL
+・DOIのURL → Yハンドル（WEKO2）のURL → JAIRO Cloud（WEKO3）のURL
+IRDBやCiNii Research、DOIのリンク先としてYハンドルのURLが使われている場合、
+これらのリンクからJAIRO Cloudのアイテム詳細画面へアクセスできなくなります。
+●該当アイテムの確認方法
+1. IRDB（https://irdb.nii.ac.jp/）にアクセス
+2. 以下の条件を入力し検索
+　・簡易検索欄：http://id.nii.ac.jp/
+　・詳細検索の機関欄：[　自機関の機関名　]　※途中まで入力すると表示される候補から選択
+3. ヒットしたアイテムの詳細画面を開き「資源識別子」欄を確認
+4. 記載されているURIが「http://id.nii.ac.jp/xxxx/xxxxxxxx」であるアイテムが該当いたします
+参考）IRDBサポート＞マニュアル＞検索
+https://support.irdb.nii.ac.jp/ja/about/manual/search
+●お願い
+該当するアイテムについて、リダイレクト終了までに次のご対応をお願い致します。
+1. 更新日時（datestamp）の更新（アイテムの空更新）を行う
+2. OAI-PMHの出力をONにする　※必要に応じて
+上記を実施することで、該当するアイテムがIRDBに再ハーベストされます。
+その後、CiNii Research等、各種連携先のYハンドル（WEKO2）のURLが、
+順次JAIRO Cloud（WEKO3）のURLに更新されます。
+具体的な手順は以下リンク先もご参照ください。
+本番移行における重要情報まとめ＞本番移行後のIRDBハーベストについて
+移行後の注意
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB#%E2%97%8F%E7%A7%BB%E8%A1%8C%E5%BE%8C%E3%81%AE%E6%B3%A8%E6%84%8F
+ハーベスト設定をオフ→オンにする場合
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB#%E2%97%8F%E3%83%8F%E3%83%BC%E3%83%99%E3%82%B9%E3%83%88%E8%A8%AD%E5%AE%9A%E3%82%92%E3%82%AA%E3%83%95%E2%86%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88
+```
 **【重要・影響なし】PHPの脆弱性に関するJAIRO Cloudへの影響について**
 2026-10-22 11:21 頃
 ```

@@ -2,7 +2,7 @@
 title: JAIRO Cloud事務局からのお知らせ
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43553760/JAIRO+Cloud"
-fetched_at: "2026-10-23T21:47:20+00:00"
+fetched_at: "2026-10-27T22:46:50+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
 via: rest_api
@@ -16,6 +16,69 @@ _階層: JAIRO Cloud（WEKO3）サポート_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します（2025/3～）
 
 個別連絡は転記の対象外です。
+
+## 【JAIRO Cloud】Yハンドルのリダイレクト終了（2027年3月末）について
+2026-10-27 14:57 頃
+
+```
+JAIRO Cloud
+ご担当者様
+
+※本件はJAIRO Cloud（WEKO2）からJAIRO Cloud（WEKO3）へのシステム移行を経た
+　利用機関に対するご案内です。
+　JAIRO Cloud（WEKO3）より利用開始された利用機関におかれましてはご放念ください。
+
+以下の資料にてご案内しておりました通り、2027年3月末を以ちまして
+「Yハンドル」（JAIRO Cloud（WEKO2）独自のハンドルシステム）
+によるURLのリダイレクトを終了いたします。
+
+次期JAIRO Cloud（WEKO3）本番移行 資料
+https://jpcoar.repo.nii.ac.jp/records/2000255
+※「本番移行_移行仕様について（2023-08-31）.pdf」p.44参照
+
+利用機関の皆様におかれましては、下記をご一読の上、
+必要に応じてご対応をお願いいたします。
+
+どうぞよろしくお願いいたします。
+
+●影響
+以下のようなリダイレクトが行われなくなります。
+
+・Yハンドル（WEKO2）のURL → JAIRO Cloud（WEKO3）のURL
+・DOIのURL → Yハンドル（WEKO2）のURL → JAIRO Cloud（WEKO3）のURL
+
+IRDBやCiNii Research、DOIのリンク先としてYハンドルのURLが使われている場合、
+これらのリンクからJAIRO Cloudのアイテム詳細画面へアクセスできなくなります。
+
+●該当アイテムの確認方法
+
+1. IRDB（https://irdb.nii.ac.jp/）にアクセス
+2. 以下の条件を入力し検索
+　・簡易検索欄：http://id.nii.ac.jp/
+　・詳細検索の機関欄：[　自機関の機関名　]　※途中まで入力すると表示される候補から選択
+3. ヒットしたアイテムの詳細画面を開き「資源識別子」欄を確認
+4. 記載されているURIが「http://id.nii.ac.jp/xxxx/xxxxxxxx」であるアイテムが該当いたします
+
+参考）IRDBサポート＞マニュアル＞検索
+https://support.irdb.nii.ac.jp/ja/about/manual/search
+
+●お願い
+該当するアイテムについて、リダイレクト終了までに次のご対応をお願い致します。
+
+1. 更新日時（datestamp）の更新（アイテムの空更新）を行う
+2. OAI-PMHの出力をONにする　※必要に応じて
+
+上記を実施することで、該当するアイテムがIRDBに再ハーベストされます。
+その後、CiNii Research等、各種連携先のYハンドル（WEKO2）のURLが、
+順次JAIRO Cloud（WEKO3）のURLに更新されます。
+具体的な手順は以下リンク先もご参照ください。
+
+本番移行における重要情報まとめ＞本番移行後のIRDBハーベストについて
+移行後の注意
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB#%E2%97%8F%E7%A7%BB%E8%A1%8C%E5%BE%8C%E3%81%AE%E6%B3%A8%E6%84%8F
+ハーベスト設定をオフ→オンにする場合
+https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB#%E2%97%8F%E3%83%8F%E3%83%BC%E3%83%99%E3%82%B9%E3%83%88%E8%A8%AD%E5%AE%9A%E3%82%92%E3%82%AA%E3%83%95%E2%86%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88
+```
 
 ## 【重要・影響なし】PHPの脆弱性に関するJAIRO Cloudへの影響について
 2026-10-22 11:21 頃
