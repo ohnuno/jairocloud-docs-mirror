@@ -1,6 +1,6 @@
 # JAIROクラウド ドキュメント アーカイブ
 
-_最終更新: 2026-10-27T22:46:50+00:00_
+_最終更新: 2026-10-28T22:55:45+00:00_
 
 このページは自動生成されています。各ページはオリジナルソースのスナップショットです。
 
@@ -9,7 +9,7 @@ _最終更新: 2026-10-27T22:46:50+00:00_
 NotebookLM には以下のファイルを「テキスト」または「ウェブサイト」ソースとして登録してください。
 （リンク一覧ページではなく、全ページ内容を1ファイルに結合したものです）
 
-- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (700 KB)
+- [combined-confluence.md](combined-confluence.md) — confluence 全文結合 (704 KB)
 - [combined-jpcoar.md](combined-jpcoar.md) — jpcoar 全文結合 (350 KB)
 
 ---
@@ -30,6 +30,8 @@ NotebookLM には以下のファイルを「テキスト」または「ウェブ
     - [著者DB管理](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud_WEKO3_基本マニュアル/著者DB管理.md)
     - [試験的機能](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud_WEKO3_基本マニュアル/試験的機能.md)
   - [JAIRO Cloud（WEKO3）基本マニュアル](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud_WEKO3_基本マニュアル.md)
+    - [2025-03-05 ～ 2026-10-22](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud事務局からのお知らせ/2025-03-05_2026-10-22.md)
+    - [2026-10-26 ～](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud事務局からのお知らせ/2026-10-26_.md)
   - [JAIRO Cloud事務局からのお知らせ](confluence/JAIRO_Cloud_WEKO3_サポート/JAIRO_Cloud事務局からのお知らせ.md)
   - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](confluence/JAIRO_Cloud_WEKO3_サポート/JPCOARスキーマVersion2_0対応に関連する問題まとめ.md)
   - [WEKO3関連資料](confluence/JAIRO_Cloud_WEKO3_サポート/WEKO3関連資料.md)
