@@ -2,7 +2,7 @@
 title: 著者DB管理
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/43548729/DB"
-fetched_at: "2026-10-23T21:47:19+00:00"
+fetched_at: "2026-10-29T23:03:30+00:00"
 ancestors:
   - JAIRO Cloud（WEKO3）サポート
   - JAIRO Cloud（WEKO3）基本マニュアル
