@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-10-29T23:03:32+00:00"
+last_updated: "2026-10-30T22:44:57+00:00"
 total_pages: 43
 total_announces: 6
 ---
@@ -3124,6 +3124,47 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/243466241/
 _階層: JAIRO Cloud（WEKO3）サポート / JAIRO Cloud事務局からのお知らせ_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します。
 個別連絡は転記の対象外です。
+**【一斉アナウンス】【中間報告（第二報） 】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）**
+2026-10-30 17:42頃
+```
+JAIRO Cloud利用機関 各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+2026年10月28日（水）15:00より実施しております緊急メンテナンスにつきまして、
+現在の状況を中間報告としてお知らせいたします。
+当該メンテナンス作業によるサービス停止期間が長引いており、ご利用機関の皆様には
+多大なご迷惑とご心配をおかけしておりますことを深くお詫び申し上げます。
+なお、本件は2026年10月21日（水）に発表されたPHPに関する脆弱性
+（CVE-2026-109618、CVE-2026-109619：php2shell）との関連性はございません。
+（下部「※関連アナウンスをご参照ください。）
+■ 今後の再開スケジュール
+現時点ではサービスの再開時期は未定となっております。
+できるだけ早急にサービスを再開できるよう努めております。
+サービスの再開時期やメンテナンスの進捗につきましては、11/4（水）までに改めて
+ご報告いたします。
+■ メンテナンス中のJAIRO Cloudから送信されるレポートメールについて
+各機関で予め以下の自動配信メールを設定している場合は、JAIRO Cloudのメンテナンス
+期間中もメールが送信されますので、ご承知おきください。
+1. 定型レポートメール
+ （Administration ＞ 統計 ＞ 運用レポート ＞ 定型レポート で設定されている機関）
+2. フィードバックメール
+ （Administration＞統計＞運用レポート＞フィードバックメール  画面で「フィードバック
+メール」の「送信」にチェックされている機関）
+※関連ドキュメント
+　JAIRO Cloud基本マニュアル＞統計機能
+　1．定型レポートの出力
+　https://jpcoar.org/support/jairo-cloud/manual/statistics/#m1
+　3．フィードバックメールの設定
+　https://jpcoar.org/support/jairo-cloud/manual/statistics/#m3
+※関連アナウンス
+　・JAIRO Cloud事務局からのお知らせ > 2026-10-26～ > 
+　　【2026年10月28日（水） 15:00 ～ 】JAIRO Cloud緊急メンテナンスのお知らせ
+　　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26#%E3%80%902026%E5%B9%B410%E6%9C%8828%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89-15%3A00-%EF%BD%9E-%E3%80%91JAIRO-Cloud%E7%B7%8A%E6%80%A5%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B
+　・JAIRO Cloud事務局からのお知らせ > 2025-03-05 ～ 2026-10-22 > 
+　　【重要・影響なし】PHPの脆弱性に関するJAIRO Cloudへの影響について
+　　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22#%E3%80%90%E9%87%8D%E8%A6%81%E3%83%BB%E5%BD%B1%E9%9F%BF%E3%81%AA%E3%81%97%E3%80%91PHP%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8BJAIRO-Cloud%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+何卒ご理解とご協力を賜りますようお願い申し上げます。
+```
 **【2026年10月28日（水） 15:00 ～ 】JAIRO Cloud緊急メンテナンスのお知らせ**
 2026-10-28 15:32頃
 ```
@@ -6235,14 +6276,14 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2026-10-26 ～](/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26)
   - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22)
 **最近の更新**
-- [JAIRO Cloud（WEKO3）サポート](/wiki/spaces/JAIROCloudWEKO3/overview "JAIROCloud_WEKO3")
-  昨日の 午後 3:24 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2026-10-26 ～](/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26 "JAIROCloud_WEKO3")
-  2026/10/28 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 6:34 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
+- [JAIRO Cloud（WEKO3）サポート](/wiki/spaces/JAIROCloudWEKO3/overview "JAIROCloud_WEKO3")
+  2026/10/29 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22 "JAIROCloud_WEKO3")
   2026/10/28 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3OTMxNTMzMzkwMDAsIlx0NDM1NTM3NjAgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1742681850/6452/cc3c4511ed4b06635044d2ba067765e796492cbe/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-338044414/6452/0ddc6c9a33e933e9319afa6913b5618c3f86a0eb/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
