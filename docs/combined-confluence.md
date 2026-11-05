@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-11-03T23:49:43+00:00"
+last_updated: "2026-11-05T00:03:14+00:00"
 total_pages: 43
 total_announces: 6
 ---
@@ -3124,6 +3124,46 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/243466241/
 _階層: JAIRO Cloud（WEKO3）サポート / JAIRO Cloud事務局からのお知らせ_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します。
 個別連絡は転記の対象外です。
+**【中間報告（第三報）】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）**
+2026-11-04 14:03頃
+```
+JAIRO Cloud利用機関 各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+2026年10月28日（水）15:00より実施しております緊急メンテナンスにつきまして、
+当該メンテナンス作業によるサービス停止期間が長引いており、
+利用機関の皆様には引き続きご迷惑とご心配をおかけしており、
+誠に申し訳ございません。
+以下、現時点までの状況ついてご報告いたします。
+■今回の障害及びサービス停止について
+この度、一部の利用機関のJAIRO Cloudにおいて、任意のアイテムの情報が
+改ざんされうるという障害が見つかりました。
+※実際に改ざんの被害のあった利用機関には個別にご連絡を差し上げております。
+調査の結果、本障害による情報の流出は確認されませんでした。また、原因は
+アプリケーション（API）の不具合であることが分かりました。
+（10/30付の第二報の通り、PHPに関する脆弱性によるものではございません。）
+現在影響の及ぶ機能等の範囲を精査中ですが、修正対応完了までの間に新たな
+被害の発生することを防ぐため、やむを得ずサービスを緊急停止の上、該当
+不具合の修正にあたっております。
+■ 今後のスケジュール
+可能な限り早期のサービス再開に向けてつとめておりますが、
+現時点では具体的なサービスの再開時期は未定となっております。
+利用機関の皆様には長期間に渡りサービスを提供できない状態が続いており、
+大変ご迷惑をおかけしておりますことについて、重ねてお詫び申し上げます。
+サービスの再開時期やメンテナンスの進捗につきましては、
+11/13（金）までに改めてご報告いたします。
+■ メンテナンス中のIRDBによるハーベストについて
+IRDBから各機関のJAIRO Cloudへのハーベストは現在も実施されておりますが、
+サービス停止の影響により、エラーという結果となっているかと存じます。
+こちらについては、次回ハーベスト起算日時（最後に成功したハーベストの
+開始日時）以降の差分をJAIRO Cloudのサービス再開後に自動的に収集するため、
+利用機関での対応は特に不要です。
+何卒ご理解とご協力を賜りますようお願い申し上げます。
+※関連アナウンス
+・【2026年10月28日（水）15:00 ～】JAIRO Cloud緊急メンテナンスのお知らせ
+・【中間報告（第二報）】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26
+```
 **【中間報告（第二報） 】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）**
 2026-10-30 17:42頃
 ```
@@ -6277,13 +6317,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22)
 **最近の更新**
 - [2026-10-26 ～](/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26 "JAIROCloud_WEKO3")
-  2026/11/02 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
+  昨日の 午後 2:12 • 投稿者 : [hmasuyama](/wiki/display/~5b359923dab53b667c4df917)
 - [JAIRO Cloud（WEKO3）サポート](/wiki/spaces/JAIROCloudWEKO3/overview "JAIROCloud_WEKO3")
   2026/10/29 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22 "JAIROCloud_WEKO3")
   2026/10/28 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3OTMxNTMzMzkwMDAsIlx0NDM1NTM3NjAgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/594051666/6452/d7681463d99350a42e3d08042fe992523e4462c7/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/-2068687266/6452/3a7ae53adf0b06b8d9b7e41b3a8a99cebcb2caec/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---
