@@ -2,7 +2,7 @@
 title: ユーザーアカウント管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/user-account/"
-fetched_at: "2026-11-07T22:26:34+00:00"
+fetched_at: "2026-11-08T22:36:00+00:00"
 depth: 1
 ---
 # ユーザーアカウント管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
