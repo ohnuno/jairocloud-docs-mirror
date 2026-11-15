@@ -2,7 +2,7 @@
 title: JAIRO Cloud基本マニュアル | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/"
-fetched_at: "2026-11-14T22:49:33+00:00"
+fetched_at: "2026-11-15T23:16:56+00:00"
 depth: 0
 ---
 # JAIRO Cloud基本マニュアル | オープンアクセスリポジトリ推進協会（JPCOAR）
