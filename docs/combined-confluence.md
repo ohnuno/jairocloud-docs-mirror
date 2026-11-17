@@ -1,7 +1,7 @@
 ---
 title: "JAIROクラウド ドキュメント (Confluence)"
 source: "nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3"
-last_updated: "2026-11-15T23:17:35+00:00"
+last_updated: "2026-11-17T02:13:28+00:00"
 total_pages: 43
 total_announces: 6
 ---
@@ -3124,6 +3124,36 @@ _Source: <https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/pages/243466241/
 _階層: JAIRO Cloud（WEKO3）サポート / JAIRO Cloud事務局からのお知らせ_
 JAIRO Cloud事務局より一斉送信したお知らせを中心に転記します。
 個別連絡は転記の対象外です。
+**（終了しました）JAIRO Cloud緊急アップデート（v2.0.5）：閲覧機能の再開**
+2026-11-16 15:26頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+標記の件につきまして、以下の通りJAIRO Cloudアップデートが完了しました。
+　2026年11月16日（月）15:00
+これ以降は、JAIRO Cloudの閲覧機能（検索、閲覧、OAI-PMH出力等）をご利用いただけます。
+詳細は、2026年11月13日付メール（末尾参照）をご覧ください。
+本メールに関するお問い合わせは、署名欄記載のアドレスまでお願いいたします。
+本アップデートにつきましては、予定時間内に終了せず申し訳ございませんでした。
+引き続きご迷惑をおかけしておりますが、どうぞよろしくお願いいたします。
+※関連アナウンス
+・2026年11月4日付【中間報告（第三報）】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）
+・2026年10月30日付【中間報告（第二報）】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水） 15:00 ～継続中）
+・2026年10月28日付【2026年10月28日（水）15:00 ～】JAIRO Cloud緊急メンテナンスのお知らせ
+　https://nii-auth.atlassian.net/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26
+```
+**（延長します）JAIRO Cloud緊急アップデート（v2.0.5）：閲覧機能の再開**
+2026-11-16 14:20頃
+```
+JAIRO Cloud利用機関各位
+平素より大変お世話になっております。
+JAIRO Cloud事務局です。
+2026年11月13日付メール（末尾参照）にてアップデートのご連絡をいたしましたが、
+作業に遅延が発生したためアップデート時間を延長させていただきます。
+完了後に改めてご連絡いたしますので、引き続お待ちいただきますよう願い申し上げます。
+ご迷惑をおかけし申し訳ございませんが、どうぞよろしくお願いいたします。
+```
 **JAIRO Cloud緊急アップデート（v2.0.5）：閲覧機能の再開【第四報】JAIRO Cloud緊急メンテナンスのお知らせ（2026年10月28日（水）15:00～継続中）**
 2026-11-13 17:03頃
 JAIRO Cloud利用機関宛てに機密性2情報のご連絡を差し上げました。
@@ -6281,6 +6311,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [試験的機能](/wiki/spaces/JAIROCloudWEKO3/pages/43549239)
   - [用語集](/wiki/spaces/JAIROCloudWEKO3/pages/43548737)
 - [リリースノート](/wiki/spaces/JAIROCloudWEKO3/pages/43550742)
+  - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4)
   - [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3)
   - [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2)
   - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0)
@@ -6297,7 +6328,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2021-05-28](/wiki/spaces/JAIROCloudWEKO3/pages/43548768/2021-05-28)
   - [2021-03-08 JAIRO Cloud先行移行 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548755/2021-03-08+JAIRO+Cloud)
   - [2020-10-27 JAIRO Cloud第二次βテスト 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud)
-  - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4)
 - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)
 - [本番移行における重要情報まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549460)
   - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
@@ -6310,13 +6340,13 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22)
 **最近の更新**
 - [2026-10-26 ～](/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26 "JAIROCloud_WEKO3")
-  2026/11/13 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+  昨日の 午後 3:37 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [JAIRO Cloud（WEKO3）サポート](/wiki/spaces/JAIROCloudWEKO3/overview "JAIROCloud_WEKO3")
   2026/11/12 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
 - [2025-03-05 ～ 2026-10-22](/wiki/spaces/JAIROCloudWEKO3/pages/43553760/2025-03-05+2026-10-22 "JAIROCloud_WEKO3")
   2026/10/28 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3OTMxNTMzMzkwMDAsIlx0NDM1NTM3NjAgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1808489989/6452/78e502aed543c9f2f24953748ddaae491f67c87c/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/9441387/6452/95dd739731b7fb26a190a71d9fcaff39d5bff53e/_/images/icons/wait.gif)
 **スペース内検索**
 
 ---

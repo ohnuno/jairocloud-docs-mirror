@@ -2,7 +2,7 @@
 title: JAIRO Cloud（WEKO3）サポート
 source: confluence
 source_url: "https://nii-auth.atlassian.net/spaces/JAIROCloudWEKO3/overview"
-fetched_at: "2026-11-14T22:50:16+00:00"
+fetched_at: "2026-11-17T02:13:28+00:00"
 ancestors:
 via: rest_api
 ---
@@ -134,6 +134,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [試験的機能](/wiki/spaces/JAIROCloudWEKO3/pages/43549239)
   - [用語集](/wiki/spaces/JAIROCloudWEKO3/pages/43548737)
 - [リリースノート](/wiki/spaces/JAIROCloudWEKO3/pages/43550742)
+  - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4)
   - [2026-07-29(v2.0.3)](/wiki/spaces/JAIROCloudWEKO3/pages/198606849/2026-07-29+v2.0.3)
   - [2026-05-07(v2.0.2)](/wiki/spaces/JAIROCloudWEKO3/pages/150667265/2026-05-07+v2.0.2)
   - [2026-03-18(v2.0.0)](/wiki/spaces/JAIROCloudWEKO3/pages/97484801/2026-03-18+v2.0.0)
@@ -150,7 +151,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   - [2021-05-28](/wiki/spaces/JAIROCloudWEKO3/pages/43548768/2021-05-28)
   - [2021-03-08 JAIRO Cloud先行移行 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548755/2021-03-08+JAIRO+Cloud)
   - [2020-10-27 JAIRO Cloud第二次βテスト 制限事項](/wiki/spaces/JAIROCloudWEKO3/pages/43548741/2020-10-27+JAIRO+Cloud)
-  - [2026-09-02(v2.0.4)](/wiki/spaces/JAIROCloudWEKO3/pages/217284609/2026-09-02+v2.0.4)
 - [JPCOARスキーマVersion2.0対応に関連する問題まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549560/JPCOAR+Version2.0)
 - [本番移行における重要情報まとめ](/wiki/spaces/JAIROCloudWEKO3/pages/43549460)
   - [本番移行後のIRDBハーベストについて](/wiki/spaces/JAIROCloudWEKO3/pages/43549447/IRDB)
@@ -165,7 +165,7 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
 ## 最近の更新
 - [2026-10-26 ～](/wiki/spaces/JAIROCloudWEKO3/pages/243466241/2026-10-26 "JAIROCloud_WEKO3")
 
-  2026/11/13 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
+  昨日の 午後 3:37 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 - [JAIRO Cloud（WEKO3）サポート](/wiki/spaces/JAIROCloudWEKO3/overview "JAIROCloud_WEKO3")
 
   2026/11/12 • 投稿者 : [杉山美紀](/wiki/display/~712020%3Acd8dc97f-d5da-471b-8fff-11ce574a0d28)
@@ -174,6 +174,6 @@ JAIRO Cloud（WEKO3）の障害報告・質問等につきましては、「[JAI
   2026/10/28 • 投稿者 : [三村 千明](/wiki/display/~712020%3A2e2121d6-2e46-4c8b-a807-8c1a2e192bfe)
 
 [表示数を増やす](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=3&startIndex=3&searchToken=1&spaceKeys=JAIROCloudWEKO3&contentType=-mail,page,whiteboard,database,slide,embed,comment,blogpost,attachment,userinfo,spacedesc,personalspacedesc,space,draft,folder,custom&cursor=_t_WzE3OTMxNTMzMzkwMDAsIlx0NDM1NTM3NjAgSmBKXU8%2FNGZROVkoLDNhJlFKWlxcIGNwIl0%3D_h_W10%3D)
-![お待ちください](/wiki/s/-1808489989/6452/78e502aed543c9f2f24953748ddaae491f67c87c/_/images/icons/wait.gif)
+![お待ちください](/wiki/s/9441387/6452/95dd739731b7fb26a190a71d9fcaff39d5bff53e/_/images/icons/wait.gif)
 
 ###### スペース内検索

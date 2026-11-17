@@ -2,7 +2,7 @@
 title: ハーベスティング管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/harvesting/"
-fetched_at: "2026-11-15T23:17:25+00:00"
+fetched_at: "2026-11-17T02:13:19+00:00"
 depth: 1
 ---
 # ハーベスティング管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
