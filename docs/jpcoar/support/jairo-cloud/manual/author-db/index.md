@@ -2,7 +2,7 @@
 title: 著者DB管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
 source: jpcoar
 source_url: "https://jpcoar.org/support/jairo-cloud/manual/author-db/"
-fetched_at: "2026-11-21T00:32:15+00:00"
+fetched_at: "2026-11-21T23:38:55+00:00"
 depth: 1
 ---
 # 著者DB管理 | オープンアクセスリポジトリ推進協会（JPCOAR）
